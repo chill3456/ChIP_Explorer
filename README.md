@@ -10,7 +10,7 @@
 
 # Description 
 
-ChIP_Exploration.R explores of ChIP-seq results by annotating peaks as enhancers or promoters, finding peak overlaps, and motif analysis of peaks in single Bash script that can be run on the command line. The script is configured for the hg19 assembly of thehuman genome but can easily be adjusted for the required genome.
+ChIP_Explorer.sh explores of ChIP-seq results by annotating peaks as enhancers or promoters, finding peak overlaps, and motif analysis of peaks in single Bash script that can be run on the command line. The script is configured for the hg19 assembly of thehuman genome but can easily be adjusted for the required genome.
 
 # Required applications 
 
