@@ -107,15 +107,15 @@ HOMER results are output in a folder with the BED file name and ending in _HOMER
 
 The output contains /outputExamples/Peak_analysis/enhancers_and_promoters_peaks/peaksSet1_all_nearest_gene_HOMER/knownResults.html that looks for motifs found in previous ChIP-seqs.
 
-<img src='https://github.com/chill3456/Quick_qPCR_Analysis/blob/master/assets/knownResults.png' width = '100%' alt="knownResults png">
+<img src='https://github.com/chill3456/ChIP_Explorer/blob/master/assets/knownResults.png' width = '100%' alt="knownResults png">
 
 The output also contains /outputExamples/Peak_analysis/enhancers_and_promoters_peaks/peaksSet1_all_nearest_gene_HOMER/homerResults.html that looks for de-novo motifs and then looks for similarity to established motifs.
 
-<img src='https://github.com/chill3456/Quick_qPCR_Analysis/blob/master/assets/homerResults.png' width = '100%' alt="homerResults png">
+<img src='https://github.com/chill3456/ChIP_Explorer/blob/master/assets/homerResults.png' width = '100%' alt="homerResults png">
 
 MEME-ChIP results are output in a folder with the BED file name and ending in _MEME_ChIP such as /outputExamples/Peak_analysis/enhancers_and_promoters_peaks/peaksSet1_all_nearest_gene_MEME_ChIP. 
 
 The output is summarized in /outputExamples/Peak_analysis/enhancers_and_promoters_peaks/peaksSet1_all_nearest_gene_MEME_ChIP/meme-chip.html. 
 
-<img src='https://github.com/chill3456/Quick_qPCR_Analysis/blob/master/assets/meme-chip.png' width = '100%' alt="meme-chip png">
+<img src='https://github.com/chill3456/ChIP_Explorer/blob/master/assets/meme-chip.png' width = '100%' alt="meme-chip png">
 
