@@ -1,0 +1,995 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.4.1, (Release date: Sat Aug 21 19:23:23 2021 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="https://meme-suite.org/meme/doc/fimo-output-format.html">https://meme-suite.org/meme/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="https://meme-suite.org">https://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE peaksSet3_enhancers_nearest_gene_MEME_ChIP/peaksSet3_enhancers_nearest_gene.fasta
+  <br />
+  Database contains 13 sequences, 7245 residues
+</p>
+<p>
+  MOTIFS peaksSet3_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">CCCNBCCCCVCCCAC</td>
+        <td style="text-align:right;padding-left: 1em;">15</td>
+        <td style="text-align:left;padding-left: 1em;">CCCCTCCCCGCCCAC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">GGWGGGGGAGGRG</td>
+        <td style="text-align:right;padding-left: 1em;">13</td>
+        <td style="text-align:left;padding-left: 1em;">GGTGGGGGAGGGG</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">DGKKGGGGGAGGGGT</td>
+        <td style="text-align:right;padding-left: 1em;">15</td>
+        <td style="text-align:left;padding-left: 1em;">TGTGGGGGGAGGGGT</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (peaksSet3_enhancers_nearest_gene_MEME_ChIP/background):
+<br/>
+
+A 0.196 C 0.304 G 0.304 T 0.196 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 73 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">139422842</td>
+      <td style="text-align:left;">139422856</td>
+      <td style="text-align:left;">4.36e-08</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCATCCCCCCCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109330</td>
+      <td style="text-align:left;">38109344</td>
+      <td style="text-align:left;">1.64e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCAGCCCCACCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">80173566</td>
+      <td style="text-align:left;">80173580</td>
+      <td style="text-align:left;">2.5e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ccctgccccccccac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763596</td>
+      <td style="text-align:left;">111763610</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763765</td>
+      <td style="text-align:left;">111763779</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763835</td>
+      <td style="text-align:left;">111763849</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763973</td>
+      <td style="text-align:left;">111763987</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111764007</td>
+      <td style="text-align:left;">111764021</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111764042</td>
+      <td style="text-align:left;">111764056</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111764112</td>
+      <td style="text-align:left;">111764126</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111764147</td>
+      <td style="text-align:left;">111764161</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602457</td>
+      <td style="text-align:left;">137602471</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602586</td>
+      <td style="text-align:left;">137602600</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602619</td>
+      <td style="text-align:left;">137602633</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602652</td>
+      <td style="text-align:left;">137602666</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602686</td>
+      <td style="text-align:left;">137602700</td>
+      <td style="text-align:left;">3.48e-07</td>
+      <td style="text-align:left;">0.000281</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">170492490</td>
+      <td style="text-align:left;">170492504</td>
+      <td style="text-align:left;">1.13e-06</td>
+      <td style="text-align:left;">0.000808</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCTCCCCCGCCGAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">170492527</td>
+      <td style="text-align:left;">170492541</td>
+      <td style="text-align:left;">1.13e-06</td>
+      <td style="text-align:left;">0.000808</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCTCCCCCGCCGAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602524</td>
+      <td style="text-align:left;">137602538</td>
+      <td style="text-align:left;">1.24e-06</td>
+      <td style="text-align:left;">0.000845</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTTCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">2169049</td>
+      <td style="text-align:left;">2169063</td>
+      <td style="text-align:left;">2.17e-06</td>
+      <td style="text-align:left;">0.0014</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTGCCCGCCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983540</td>
+      <td style="text-align:left;">64983554</td>
+      <td style="text-align:left;">3.05e-06</td>
+      <td style="text-align:left;">0.00171</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCACCCACCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983560</td>
+      <td style="text-align:left;">64983574</td>
+      <td style="text-align:left;">3.05e-06</td>
+      <td style="text-align:left;">0.00171</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCACCCACCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983671</td>
+      <td style="text-align:left;">64983685</td>
+      <td style="text-align:left;">3.05e-06</td>
+      <td style="text-align:left;">0.00171</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCACCCACCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">4328462</td>
+      <td style="text-align:left;">4328476</td>
+      <td style="text-align:left;">3.62e-06</td>
+      <td style="text-align:left;">0.00195</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ccccaatccgcccac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">150575326</td>
+      <td style="text-align:left;">150575340</td>
+      <td style="text-align:left;">4.15e-06</td>
+      <td style="text-align:left;">0.0021</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">cccacacacacccac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109188</td>
+      <td style="text-align:left;">38109202</td>
+      <td style="text-align:left;">4.36e-06</td>
+      <td style="text-align:left;">0.0021</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCAGCCCCAGCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">34665594</td>
+      <td style="text-align:left;">34665608</td>
+      <td style="text-align:left;">4.4e-06</td>
+      <td style="text-align:left;">0.0021</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCGCCTCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983512</td>
+      <td style="text-align:left;">64983526</td>
+      <td style="text-align:left;">4.58e-06</td>
+      <td style="text-align:left;">0.00211</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCATCCACCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983556</td>
+      <td style="text-align:left;">64983570</td>
+      <td style="text-align:left;">4.85e-06</td>
+      <td style="text-align:left;">0.00216</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACCCACCCACCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109078</td>
+      <td style="text-align:left;">38109092</td>
+      <td style="text-align:left;">5.82e-06</td>
+      <td style="text-align:left;">0.0025</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCAGCCACGCCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983472</td>
+      <td style="text-align:left;">64983486</td>
+      <td style="text-align:left;">6.9e-06</td>
+      <td style="text-align:left;">0.00279</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCATCCGCCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983572</td>
+      <td style="text-align:left;">64983586</td>
+      <td style="text-align:left;">6.9e-06</td>
+      <td style="text-align:left;">0.00279</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCATCCGCCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983484</td>
+      <td style="text-align:left;">64983498</td>
+      <td style="text-align:left;">1.03e-05</td>
+      <td style="text-align:left;">0.004</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCACCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">4328300</td>
+      <td style="text-align:left;">4328314</td>
+      <td style="text-align:left;">1.05e-05</td>
+      <td style="text-align:left;">0.004</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ccccagcccgcccac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983600</td>
+      <td style="text-align:left;">64983614</td>
+      <td style="text-align:left;">1.36e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCATCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983655</td>
+      <td style="text-align:left;">64983669</td>
+      <td style="text-align:left;">1.36e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCATCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983496</td>
+      <td style="text-align:left;">64983510</td>
+      <td style="text-align:left;">1.41e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCTCCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">139423004</td>
+      <td style="text-align:left;">139423018</td>
+      <td style="text-align:left;">1.42e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCTGCCCGTCCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983344</td>
+      <td style="text-align:left;">64983358</td>
+      <td style="text-align:left;">1.44e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCACCCGCTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983536</td>
+      <td style="text-align:left;">64983550</td>
+      <td style="text-align:left;">1.44e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACCCACCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983552</td>
+      <td style="text-align:left;">64983566</td>
+      <td style="text-align:left;">1.44e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACCCACCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983612</td>
+      <td style="text-align:left;">64983626</td>
+      <td style="text-align:left;">1.44e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACCCACCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983667</td>
+      <td style="text-align:left;">64983681</td>
+      <td style="text-align:left;">1.44e-05</td>
+      <td style="text-align:left;">0.00432</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACCCACCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">150575332</td>
+      <td style="text-align:left;">150575346</td>
+      <td style="text-align:left;">1.65e-05</td>
+      <td style="text-align:left;">0.00483</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">cacacccacacccac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">103818696</td>
+      <td style="text-align:left;">103818710</td>
+      <td style="text-align:left;">2.11e-05</td>
+      <td style="text-align:left;">0.00604</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCATCCCCCGTGAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">150575316</td>
+      <td style="text-align:left;">150575330</td>
+      <td style="text-align:left;">2.16e-05</td>
+      <td style="text-align:left;">0.00606</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">cacacacacacccac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">150575304</td>
+      <td style="text-align:left;">150575318</td>
+      <td style="text-align:left;">2.76e-05</td>
+      <td style="text-align:left;">0.00742</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">cacactcacacccac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983440</td>
+      <td style="text-align:left;">64983454</td>
+      <td style="text-align:left;">2.88e-05</td>
+      <td style="text-align:left;">0.00742</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCGCCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983524</td>
+      <td style="text-align:left;">64983538</td>
+      <td style="text-align:left;">2.88e-05</td>
+      <td style="text-align:left;">0.00742</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCGCCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983584</td>
+      <td style="text-align:left;">64983598</td>
+      <td style="text-align:left;">2.88e-05</td>
+      <td style="text-align:left;">0.00742</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTCGCCCACTCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109226</td>
+      <td style="text-align:left;">38109240</td>
+      <td style="text-align:left;">3.04e-05</td>
+      <td style="text-align:left;">0.0077</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCTCACCGCCCCAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">58778594</td>
+      <td style="text-align:left;">58778608</td>
+      <td style="text-align:left;">3.42e-05</td>
+      <td style="text-align:left;">0.00817</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCGTTTCCAACGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">58778934</td>
+      <td style="text-align:left;">58778948</td>
+      <td style="text-align:left;">3.42e-05</td>
+      <td style="text-align:left;">0.00817</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCGTTTCCAACGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">58779271</td>
+      <td style="text-align:left;">58779285</td>
+      <td style="text-align:left;">3.42e-05</td>
+      <td style="text-align:left;">0.00817</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCGTTTCCAACGAA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64983424</td>
+      <td style="text-align:left;">64983438</td>
+      <td style="text-align:left;">4.56e-05</td>
+      <td style="text-align:left;">0.0107</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CGCTTATCCACCCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">80173529</td>
+      <td style="text-align:left;">80173543</td>
+      <td style="text-align:left;">5.91e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">ccctgccccccacac</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763631</td>
+      <td style="text-align:left;">111763645</td>
+      <td style="text-align:left;">6.37e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCAACAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763666</td>
+      <td style="text-align:left;">111763680</td>
+      <td style="text-align:left;">6.37e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCAACAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763698</td>
+      <td style="text-align:left;">111763712</td>
+      <td style="text-align:left;">6.37e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCAACAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763730</td>
+      <td style="text-align:left;">111763744</td>
+      <td style="text-align:left;">6.37e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCAACAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111764077</td>
+      <td style="text-align:left;">111764091</td>
+      <td style="text-align:left;">6.37e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCAACAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602490</td>
+      <td style="text-align:left;">137602504</td>
+      <td style="text-align:left;">6.71e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602553</td>
+      <td style="text-align:left;">137602567</td>
+      <td style="text-align:left;">6.71e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137602715</td>
+      <td style="text-align:left;">137602729</td>
+      <td style="text-align:left;">6.71e-05</td>
+      <td style="text-align:left;">0.0135</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTCCTCCCCCACCAC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763800</td>
+      <td style="text-align:left;">111763814</td>
+      <td style="text-align:left;">8.77e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763870</td>
+      <td style="text-align:left;">111763884</td>
+      <td style="text-align:left;">8.77e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">111763905</td>
+      <td style="text-align:left;">111763919</td>
+      <td style="text-align:left;">8.77e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCCTCCCCCACCCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109414</td>
+      <td style="text-align:left;">38109428</td>
+      <td style="text-align:left;">9.2e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCGCCTCCACCCAG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109162</td>
+      <td style="text-align:left;">38109176</td>
+      <td style="text-align:left;">9.41e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCAGCCCCGCCCTC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109236</td>
+      <td style="text-align:left;">38109250</td>
+      <td style="text-align:left;">9.41e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCAGCCCCGCCCTC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109404</td>
+      <td style="text-align:left;">38109418</td>
+      <td style="text-align:left;">9.41e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCAGCCCCGCCCTC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">38109503</td>
+      <td style="text-align:left;">38109517</td>
+      <td style="text-align:left;">9.41e-05</td>
+      <td style="text-align:left;">0.0169</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCAGCCCCGCCCCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">CCCNBCCCCVCCCAC</td>
+      <td style="text-align:left;">MEME-1</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">103818738</td>
+      <td style="text-align:left;">103818752</td>
+      <td style="text-align:left;">9.81e-05</td>
+      <td style="text-align:left;">0.0173</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CCCACCTCCGCCCTC</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --parse-genomic-coord --verbosity 1 --oc peaksSet3_enhancers_nearest_gene_MEME_ChIP/fimo_out_1 --bgfile peaksSet3_enhancers_nearest_gene_MEME_ChIP/background --motif CCCNBCCCCVCCCAC peaksSet3_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet3_enhancers_nearest_gene_MEME_ChIP/peaksSet3_enhancers_nearest_gene.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = peaksSet3_enhancers_nearest_gene_MEME_ChIP/fimo_out_1</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = peaksSet3_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = peaksSet3_enhancers_nearest_gene_MEME_ChIP/peaksSet3_enhancers_nearest_gene.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = peaksSet3_enhancers_nearest_gene_MEME_ChIP/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

@@ -1,0 +1,20 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	0	0	.	.	.	5.96e-02	5	2	7	312	2.58e-07	2.32e-06
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	0	0	.	.	.	5.96e-02	60	2	7	312	2.58e-07	2.32e-06
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	0	0	.	.	.	5.96e-02	0	8	11	312	2.86e-06	2.58e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	0	0	.	.	.	5.96e-02	0	2	6	312	3.24e-06	2.91e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	0	0	.	.	.	5.96e-02	10	2	6	312	3.24e-06	2.91e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	0	0	.	.	.	5.96e-02	40	2	6	312	3.24e-06	2.91e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	streme.xml	6-GATGWTTGCATTCAA	STREME-6	GATGWTTGCATTCAA	0	0	.	.	.	9.27e-02	101	2	4	55	4.01e-07	3.61e-06
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	streme.xml	17-GGAAGGGAAKG	STREME-17	GGAAGGGAAKG	0	0	.	.	.	4.17e-01	23	3	4	82	1.77e-06	1.59e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	ATTCCATTCCAT	MEME-2	ATTCCATTCCAT	0	0	.	.	.	4.29e-01	9	2	6	288	1.83e-06	1.65e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	ATTCCATTCCAT	MEME-2	ATTCCATTCCAT	0	0	.	.	.	4.29e-01	64	2	6	288	1.83e-06	1.65e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	streme.xml	8-AAGATATTTCCWT	STREME-8	AAGATATTTCCWT	0	0	.	.	.	7.97e-01	17	0	3	33	3.46e-06	3.11e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	streme.xml	8-AAGATATTTCCWT	STREME-8	AAGATATTTCCWT	0	0	.	.	.	7.97e-01	92	0	3	33	3.46e-06	3.11e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	streme.xml	8-AAGATATTTCCWT	STREME-8	AAGATATTTCCWT	0	0	.	.	.	7.97e-01	4	2	3	33	3.46e-06	3.11e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	streme.xml	8-AAGATATTTCCWT	STREME-8	AAGATATTTCCWT	0	0	.	.	.	7.97e-01	99	2	3	33	3.46e-06	3.11e-05
+meme.xml	TTCCATTCCATTCCA	MEME-3	TTCCATTCCATTCCA	meme.xml	ATTCCATTCCA	MEME-1	ATTCCATTCCA	0	0	.	.	.	1.47e+00	14	2	5	223	8.05e-03	7.02e-02
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.4.1 compiled on Nov  7 2022 at 13:03:05
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/spamo_out_1 -bgfile peaksSet1_enhancers_nearest_gene_MEME_ChIP/background -keepprimary -primary TTCCATTCCATTCCA peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml

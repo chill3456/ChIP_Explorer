@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes'?>
+<tomtom version="5.4.1" release="Sat Aug 21 19:23:23 2021 -0700">
+  <model>
+    <command_line>tomtom -verbosity 1 -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme</command_line>
+    <distance_measure value="pearson"/>
+    <threshold type="evalue">1</threshold>
+    <alphabet name="DNA" like="dna">
+      <letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+      <letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+      <letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+      <letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+      <letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+      <letter id="V" symbol="V" equals="ACG" name="Not T"/>
+      <letter id="H" symbol="H" equals="ACT" name="Not G"/>
+      <letter id="D" symbol="D" equals="AGT" name="Not C"/>
+      <letter id="B" symbol="B" equals="CGT" name="Not A"/>
+      <letter id="M" symbol="M" equals="AC" name="Amino"/>
+      <letter id="R" symbol="R" equals="AG" name="Purine"/>
+      <letter id="W" symbol="W" equals="AT" name="Weak"/>
+      <letter id="S" symbol="S" equals="CG" name="Strong"/>
+      <letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+      <letter id="K" symbol="K" equals="GT" name="Keto"/>
+    </alphabet>
+    <strands>both</strands>
+    <background from="--query--" A="0.237" C="0.263" G="0.263" T="0.237"/>
+    <host>node044</host>
+    <when>Thu Dec 14 18:26:53 2023</when>
+  </model>
+  <query_dbs>
+    <db source="peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml" name="meme.xml" loaded="3" excluded="0" last_mod_date="Thu Dec 14 18:26:00 2023"/>
+  </query_dbs>
+  <target_dbs>
+    <db source="/wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme" name="uniprobe_mouse" loaded="386" excluded="0" last_mod_date="Thu Mar 17 20:59:31 2022"/>
+    <db source="/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme" name="JASPAR2022_CORE_vertebrates_non-redundant_v2" loaded="841" excluded="0" last_mod_date="Thu Mar 17 20:57:27 2022"/>
+    <db source="/wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme" name="jolma2013" loaded="843" excluded="0" last_mod_date="Thu Mar 17 20:57:23 2022"/>
+  </target_dbs>
+  <queries>
+    <motif db="0" id="ATTCCATTCCA" alt="MEME-1" length="11" nsites="188" evalue="2.2e-217">
+      <pos A="0.999594" C="0.000139819" G="0.000139819" T="0.000125997"/>
+      <pos A="0.000125997" C="0.000139819" G="0.000139819" T="0.999594"/>
+      <pos A="0.000125997" C="0.000139819" G="0.000139819" T="0.999594"/>
+      <pos A="0.0107583" C="0.988976" G="0.000139819" T="0.000125997"/>
+      <pos A="0.000125997" C="0.994292" G="0.00545599" T="0.000125997"/>
+      <pos A="0.978329" C="0.000139819" G="0.000139819" T="0.0213917"/>
+      <pos A="0.000125997" C="0.037354" G="0.000139819" T="0.96238"/>
+      <pos A="0.000125997" C="0.00545599" G="0.000139819" T="0.994278"/>
+      <pos A="0.0213917" C="0.978342" G="0.000139819" T="0.000125997"/>
+      <pos A="0.0479725" C="0.643415" G="0.308487" T="0.000125997"/>
+      <pos A="0.983646" C="0.000139819" G="0.000139819" T="0.0160745"/>
+    </motif>
+    <motif db="0" id="ATTCCATTCCAT" alt="MEME-2" length="12" nsites="173" evalue="7.2e-191">
+      <pos A="0.999559" C="0.000151935" G="0.000151935" T="0.000136915"/>
+      <pos A="0.000136915" C="0.0232596" G="0.000151935" T="0.976452"/>
+      <pos A="0.000136915" C="0.000151935" G="0.000151935" T="0.999559"/>
+      <pos A="0.000136915" C="0.959136" G="0.0405906" T="0.000136915"/>
+      <pos A="0.0116912" C="0.982243" G="0.0059286" T="0.000136915"/>
+      <pos A="0.993783" C="0.000151935" G="0.0059286" T="0.000136915"/>
+      <pos A="0.000136915" C="0.0983612" G="0.0174829" T="0.884019"/>
+      <pos A="0.000136915" C="0.0059286" G="0.000151935" T="0.993783"/>
+      <pos A="0.0174679" C="0.901365" G="0.0117063" T="0.0694608"/>
+      <pos A="0.0347989" C="0.722278" G="0.19657" T="0.0463532"/>
+      <pos A="0.982228" C="0.000151935" G="0.0174829" T="0.000136915"/>
+      <pos A="0.000136915" C="0.0405906" G="0.0290372" T="0.930235"/>
+    </motif>
+    <motif db="0" id="TTCCATTCCATTCCA" alt="MEME-3" length="15" nsites="165" evalue="6.2e-260">
+      <pos A="0.0485992" C="0.0667859" G="0.000159297" T="0.884456"/>
+      <pos A="0.000143549" C="0.000159297" G="0.000159297" T="0.999538"/>
+      <pos A="0.0425419" C="0.945042" G="0.012273" T="0.000143549"/>
+      <pos A="0.0243709" C="0.975326" G="0.000159297" T="0.000143549"/>
+      <pos A="0.975311" C="0.000159297" G="0.0243866" T="0.000143549"/>
+      <pos A="0.0183145" C="0.151583" G="0.0304439" T="0.799659"/>
+      <pos A="0.0243709" C="0.000159297" G="0.000159297" T="0.975311"/>
+      <pos A="0.0122572" C="0.878415" G="0.0243866" T="0.0849402"/>
+      <pos A="0.0304282" C="0.726992" G="0.145526" T="0.0970548"/>
+      <pos A="0.926855" C="0.000159297" G="0.0486149" T="0.0243709"/>
+      <pos A="0.0909975" C="0.15764" G="0.103127" T="0.648236"/>
+      <pos A="0.000143549" C="0.000159297" G="0.000159297" T="0.999538"/>
+      <pos A="0.0183145" C="0.951098" G="0.00621663" T="0.0243709"/>
+      <pos A="0.000143549" C="0.914757" G="0.0728422" T="0.0122572"/>
+      <pos A="0.95714" C="0.00621663" G="0.0183303" T="0.0183145"/>
+    </motif>
+  </queries>
+  <targets>
+  </targets>
+  <matches>
+  </matches>
+  <runtime cycles="9568980" seconds="9.569"/>
+</tomtom>

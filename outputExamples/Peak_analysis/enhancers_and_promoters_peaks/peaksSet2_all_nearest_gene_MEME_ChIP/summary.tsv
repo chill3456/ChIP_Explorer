@@ -1,0 +1,8 @@
+MOTIF_INDEX	MOTIF_SOURCE	MOTIF_ID	ALT_ID	CONSENSUS	WIDTH	SITES	E-VALUE	E-VALUE_SOURCE	MOST_SIMILAR_MOTIF_SOURCE	MOST_SIMILAR_MOTIF	URL
+1	MEME	GGGAGGCTGAGGYDG	MEME-1	GGGAGGCTGAGGYDG	15	28	5.3e-040	MEME	/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme	MA1596.1 (ZNF460)	http://jaspar2022.genereg.net/matrix/MA1596.1
+2	MEME	GCTGGAGTGCAGTGG	MEME-2	GCTGGAGTGCAGTGG	15	17	6.5e-034	MEME	 	 	 
+3	MEME	GCTGGGATTACAGGC	MEME-3	GCTGGGATTACAGGC	15	16	9.8e-025	MEME	 	 	 
+
+# MEME-ChIP (Motif Analysis of Large Nucleotide Datasets): Version 5.4.1 released on Sat Aug 21 19:23:23 2021 -0700
+# The format of this file is described at https://meme-suite.org/meme//doc/meme-chip-output-format.html
+# meme-chip -oc . -time 240 -ccut 100 -dna -order 2 -minw 6 -maxw 15 -db /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme -db /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme -db /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 -streme-pvt 0.05 -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 peaksSet2_all_nearest_gene.fasta -oc peaksSet2_all_nearest_gene_MEME_ChIP

@@ -1,0 +1,10 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+meme.xml	YBCYSATTGGYYV	MEME-2	YBCYSATTGGYYV	streme.xml	2-KACGTCACC	STREME-2	KACGTCACC	0	0	.	.	.	1.09e+00	116	2	3	44	9.68e-03	8.38e-02
+meme.xml	YBCYSATTGGYYV	MEME-2	YBCYSATTGGYYV	streme.xml	3-YRRCCAATSRGMR	STREME-3	YRRCCAATSRGMR	1	0	.	.	.	1.16e+00	121	1	5	234	1.04e-02	8.94e-02
+meme.xml	YBCYSATTGGYYV	MEME-2	YBCYSATTGGYYV	meme.xml	YBCYSATTGGYYV	MEME-2	YBCYSATTGGYYV	0	1	meme.xml	3-YRRCCAATSRGMR	STREME-3	1.40e+00	121	0	5	244	1.26e-02	1.08e-01
+meme.xml	YBCYSATTGGYYV	MEME-2	YBCYSATTGGYYV	streme.xml	1-RGGGGCGGGGCBNG	STREME-1	RGGGGCGGGGCBNG	0	3	.	.	.	6.34e+00	37	6	6	276	7.17e-02	4.88e-01
+meme.xml	YBCYSATTGGYYV	MEME-2	YBCYSATTGGYYV	streme.xml	8-GGCTCTGCCTAC	STREME-8	GGCTCTGCCTAC	0	0	.	.	.	7.34e+00	43	0	2	21	8.82e-02	5.64e-01
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.4.1 compiled on Nov  7 2022 at 13:03:05
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc peaksSet1_promoters_nearest_gene_MEME_ChIP/spamo_out_2 -bgfile peaksSet1_promoters_nearest_gene_MEME_ChIP/background -keepprimary -primary YBCYSATTGGYYV peaksSet1_promoters_nearest_gene_MEME_ChIP/peaksSet1_promoters_nearest_gene.fasta peaksSet1_promoters_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_promoters_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml

@@ -1,0 +1,12 @@
+MOTIF_INDEX	MOTIF_SOURCE	MOTIF_ID	ALT_ID	CONSENSUS	WIDTH	SITES	E-VALUE	E-VALUE_SOURCE	MOST_SIMILAR_MOTIF_SOURCE	MOST_SIMILAR_MOTIF	URL
+1	MEME	GGGGCGGGGCBDGGG	MEME-1	GGGGCGGGGCBDGGG	15	1239	2.3e-196	MEME	/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme	MA0742.2 (KLF12)	http://jaspar2022.genereg.net/matrix/MA0742.2
+2	MEME	TGGAATGGAATGGAA	MEME-2	TGGAATGGAATGGAA	15	193	1.6e-172	MEME	 	 	 
+3	MEME	TCCATTCCATT	MEME-3	TCCATTCCATT	11	201	2.0e-073	MEME	/wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme	Sox1_DBD_3	http://floresta.eead.csic.es/footprintdb/index.php?db=HumanTF:1.0&motif=Sox1_DBD_3
+4	STREME	1-RGCCCCGCCCCY	STREME-1	RGCCCCGCCCCY	12	947	4.6e-010	STREME	/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme	MA0516.3 (SP2)	http://jaspar2022.genereg.net/matrix/MA0516.3
+5	STREME	2-DVTGASTCABH	STREME-2	DVTGASTCABH	11	353	4.4e-008	STREME	/wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme	UP00103_2 (Jundm2_secondary)	http://thebrain.bwh.harvard.edu/uniprobe/details2.php?id=00103
+6	STREME	3-RRCCAATSRGM	STREME-3	RRCCAATSRGM	11	517	5.2e-004	STREME	/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme	MA1644.1 (NFYC)	http://jaspar2022.genereg.net/matrix/MA1644.1
+7	STREME	4-CCCCACCC	STREME-4	CCCCACCC	8	141	2.0e-002	STREME	/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme	MA0039.4 (KLF4)	http://jaspar2022.genereg.net/matrix/MA0039.4
+
+# MEME-ChIP (Motif Analysis of Large Nucleotide Datasets): Version 5.4.1 released on Sat Aug 21 19:23:23 2021 -0700
+# The format of this file is described at https://meme-suite.org/meme//doc/meme-chip-output-format.html
+# meme-chip -oc . -time 240 -ccut 100 -dna -order 2 -minw 6 -maxw 15 -db /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme -db /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme -db /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 -streme-pvt 0.05 -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 peaksSet1_all_nearest_gene.fasta -oc peaksSet1_all_nearest_gene_MEME_ChIP

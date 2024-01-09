@@ -1,0 +1,12 @@
+Skipping sequence chr11:64983311-64983710 as its length (399) does not match the expected length (1031).
+Skipping sequence chr12:111763568-111764192 as its length (624) does not match the expected length (1031).
+Skipping sequence chr17:38109005-38109590 as its length (585) does not match the expected length (1031).
+Skipping sequence chr17:80173209-80173969 as its length (760) does not match the expected length (1031).
+Skipping sequence chr19:2168886-2169264 as its length (378) does not match the expected length (1031).
+Skipping sequence chr19:4328200-4328744 as its length (544) does not match the expected length (1031).
+Skipping sequence chr5:150575115-150575589 as its length (474) does not match the expected length (1031).
+Skipping sequence chr6:170492234-170492840 as its length (606) does not match the expected length (1031).
+Skipping sequence chr8:103818380-103818958 as its length (578) does not match the expected length (1031).
+Skipping sequence chr9:34665358-34665871 as its length (513) does not match the expected length (1031).
+Skipping sequence chr9:137602404-137602744 as its length (340) does not match the expected length (1031).
+Skipping sequence chr9:139422763-139423176 as its length (413) does not match the expected length (1031).

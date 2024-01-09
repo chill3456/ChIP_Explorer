@@ -1,0 +1,29 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	CTYGGGAGGCKGAGG	MEME-1	CTYGGGAGGCKGAGG	0	0	.	.	.	8.51e-13	8	3	10	67	1.10e-17	9.93e-17
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	CTYGGGAGGCKGAGG	MEME-1	CTYGGGAGGCKGAGG	0	0	.	.	.	8.51e-13	8	5	10	67	1.03e-14	9.25e-14
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	CTYGGGAGGCKGAGG	MEME-1	CTYGGGAGGCKGAGG	0	0	.	.	.	8.51e-13	8	7	10	67	1.03e-14	9.25e-14
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	CTYGGGAGGCKGAGG	MEME-1	CTYGGGAGGCKGAGG	0	0	.	.	.	8.51e-13	8	8	10	67	8.69e-12	7.82e-11
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	CTYGGGAGGCKGAGG	MEME-1	CTYGGGAGGCKGAGG	0	0	.	.	.	8.51e-13	3	1	4	67	8.86e-07	7.98e-06
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	3-CTCAGCCTCCCRAGD	STREME-3	CTCAGCCTCCCRAGD	0	1	.	.	.	1.58e-11	9	2	10	89	2.03e-16	1.83e-15
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	3-CTCAGCCTCCCRAGD	STREME-3	CTCAGCCTCCCRAGD	0	1	.	.	.	1.58e-11	9	6	10	89	1.82e-13	1.64e-12
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	3-CTCAGCCTCCCRAGD	STREME-3	CTCAGCCTCCCRAGD	0	1	.	.	.	1.58e-11	9	7	10	89	1.82e-13	1.64e-12
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	3-CTCAGCCTCCCRAGD	STREME-3	CTCAGCCTCCCRAGD	0	1	.	.	.	1.58e-11	9	8	10	89	1.44e-10	1.29e-09
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	3-CTCAGCCTCCCRAGD	STREME-3	CTCAGCCTCCCRAGD	0	1	.	.	.	1.58e-11	16	1	4	89	2.66e-06	2.39e-05
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTGGGATTACAGGC	MEME-3	GCTGGGATTACAGGC	0	0	.	.	.	2.59e-08	25	2	7	45	3.36e-13	3.03e-12
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTGGGATTACAGGC	MEME-3	GCTGGGATTACAGGC	0	0	.	.	.	2.59e-08	25	6	7	45	4.05e-11	3.65e-10
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTGGGATTACAGGC	MEME-3	GCTGGGATTACAGGC	0	0	.	.	.	2.59e-08	25	7	7	45	4.05e-11	3.65e-10
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTGGGATTACAGGC	MEME-3	GCTGGGATTACAGGC	0	0	.	.	.	2.59e-08	25	8	7	45	4.59e-09	4.13e-08
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	2-TAATCCCARM	STREME-2	TAATCCCARM	0	0	streme.xml	GCTGGGATTACAGGC	MEME-3	4.52e-04	25	3	6	108	5.66e-09	5.09e-08
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	2-TAATCCCARM	STREME-2	TAATCCCARM	0	0	streme.xml	GCTGGGATTACAGGC	MEME-3	4.52e-04	25	7	7	108	1.60e-08	1.44e-07
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	2-TAATCCCARM	STREME-2	TAATCCCARM	0	0	streme.xml	GCTGGGATTACAGGC	MEME-3	4.52e-04	25	5	6	108	3.10e-07	2.79e-06
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	2-TAATCCCARM	STREME-2	TAATCCCARM	0	0	streme.xml	GCTGGGATTACAGGC	MEME-3	4.52e-04	25	8	7	108	1.50e-06	1.35e-05
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTKGAGYSCAGKRG	MEME-2	GCTKGAGYSCAGKRG	0	0	.	.	.	6.26e-06	39	0	6	52	8.12e-11	7.31e-10
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTKGAGYSCAGKRG	MEME-2	GCTKGAGYSCAGKRG	0	0	.	.	.	6.26e-06	39	4	6	52	4.83e-09	4.35e-08
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTKGAGYSCAGKRG	MEME-2	GCTKGAGYSCAGKRG	0	0	.	.	.	6.26e-06	39	5	6	52	4.83e-09	4.35e-08
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	meme.xml	GCTKGAGYSCAGKRG	MEME-2	GCTKGAGYSCAGKRG	0	0	.	.	.	6.26e-06	39	8	6	52	2.68e-07	2.41e-06
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	4-AAAAADAAAAAAAA	STREME-4	AAAAADAAAAAAAA	0	0	.	.	.	2.82e-01	47	2	6	322	3.71e-06	3.33e-05
+streme.xml	1-AAGTCA	STREME-1	AAGTCA	streme.xml	1-AAGTCA	STREME-1	AAGTCA	0	0	.	.	.	4.60e+00	1	6	4	119	1.12e-01	6.57e-01
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.4.1 compiled on Nov  7 2022 at 13:03:05
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc peaksSet2_enhancers_nearest_gene_MEME_ChIP/spamo_out_4 -bgfile peaksSet2_enhancers_nearest_gene_MEME_ChIP/background -keepprimary -primary 1-AAGTCA peaksSet2_enhancers_nearest_gene_MEME_ChIP/peaksSet2_enhancers_nearest_gene.fasta peaksSet2_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet2_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet2_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml

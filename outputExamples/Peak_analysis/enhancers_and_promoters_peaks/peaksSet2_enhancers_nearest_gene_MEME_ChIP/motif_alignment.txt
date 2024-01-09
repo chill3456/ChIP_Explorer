@@ -1,0 +1,9 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+1	1	0	8.32177e-29	3.32871e-28	6.65741e-28	15	CTTGGGAGGCTGAGG	CTTGGGAGGCTGAGG	+
+2	2	0	1.16505e-27	4.66019e-27	9.32038e-27	15	GCTGGAGTGCAGTGG	GCTGGAGTGCAGTGG	+
+3	3	0	4.40388e-25	1.76155e-24	3.5231e-24	15	GCTGGGATTACAGGC	GCTGGGATTACAGGC	+
+4	4	0	2.84151e-11	1.1366e-10	2.27321e-10	6	AAGTCA	AAGTCA	+
+
+# Tomtom (Motif Comparison Tool): Version 5.4.1 compiled on Nov  7 2022 at 13:03:06
+# The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
+# tomtom -verbosity 1 -text -thresh 0.1 peaksSet2_enhancers_nearest_gene_MEME_ChIP/combined.meme peaksSet2_enhancers_nearest_gene_MEME_ChIP/combined.meme

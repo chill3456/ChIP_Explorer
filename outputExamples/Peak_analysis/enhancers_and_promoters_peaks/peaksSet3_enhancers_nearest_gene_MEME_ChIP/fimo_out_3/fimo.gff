@@ -1,0 +1,3 @@
+##gff-version 3
+chr19	fimo	nucleotide_motif	2169135	2169144	44.2	+	.	Name=2-CCTGSSCAGG_chr19+;Alias=STREME-2;ID=2-CCTGSSCAGG-STREME-2-1-chr19;pvalue=3.83e-05;qvalue=0.267;sequence=CCTGGCCTGG;
+chr19	fimo	nucleotide_motif	2169135	2169144	44.2	-	.	Name=2-CCTGSSCAGG_chr19-;Alias=STREME-2;ID=2-CCTGSSCAGG-STREME-2-2-chr19;pvalue=3.83e-05;qvalue=0.267;sequence=CCAGGCCAGG;

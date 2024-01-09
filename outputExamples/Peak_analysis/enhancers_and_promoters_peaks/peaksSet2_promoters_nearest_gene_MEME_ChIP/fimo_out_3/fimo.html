@@ -1,0 +1,433 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.4.1, (Release date: Sat Aug 21 19:23:23 2021 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="https://meme-suite.org/meme/doc/fimo-output-format.html">https://meme-suite.org/meme/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="https://meme-suite.org">https://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE peaksSet2_promoters_nearest_gene_MEME_ChIP/peaksSet2_promoters_nearest_gene.fasta
+  <br />
+  Database contains 45 sequences, 62247 residues
+</p>
+<p>
+  MOTIFS peaksSet2_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">1-GCCTYYYTBCCW</td>
+        <td style="text-align:right;padding-left: 1em;">12</td>
+        <td style="text-align:left;padding-left: 1em;">GCCTCTCTGCCT</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">2-AGCCTCYCACAC</td>
+        <td style="text-align:right;padding-left: 1em;">12</td>
+        <td style="text-align:left;padding-left: 1em;">AGCCTCCCACAC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">3-GACCACC</td>
+        <td style="text-align:right;padding-left: 1em;">7</td>
+        <td style="text-align:left;padding-left: 1em;">GACCACC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">4-STTCGGGDCC</td>
+        <td style="text-align:right;padding-left: 1em;">10</td>
+        <td style="text-align:left;padding-left: 1em;">CTTCGGGACC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">5-AGTTTCYGTC</td>
+        <td style="text-align:right;padding-left: 1em;">10</td>
+        <td style="text-align:left;padding-left: 1em;">AGTTTCTGTC</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (peaksSet2_promoters_nearest_gene_MEME_ChIP/background):
+<br/>
+
+A 0.231 C 0.269 G 0.269 T 0.231 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 21 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65656256</td>
+      <td style="text-align:left;">65656265</td>
+      <td style="text-align:left;">1.26e-06</td>
+      <td style="text-align:left;">0.0775</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTCGGGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65658553</td>
+      <td style="text-align:left;">65658562</td>
+      <td style="text-align:left;">1.26e-06</td>
+      <td style="text-align:left;">0.0775</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTCGGGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">173831120</td>
+      <td style="text-align:left;">173831129</td>
+      <td style="text-align:left;">1.29e-05</td>
+      <td style="text-align:left;">0.406</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTCGAGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">3074194</td>
+      <td style="text-align:left;">3074203</td>
+      <td style="text-align:left;">1.56e-05</td>
+      <td style="text-align:left;">0.406</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTCGGGACG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55876067</td>
+      <td style="text-align:left;">55876076</td>
+      <td style="text-align:left;">2.83e-05</td>
+      <td style="text-align:left;">0.406</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTCGAGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">57920424</td>
+      <td style="text-align:left;">57920433</td>
+      <td style="text-align:left;">2.83e-05</td>
+      <td style="text-align:left;">0.406</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTCGAGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">57921159</td>
+      <td style="text-align:left;">57921168</td>
+      <td style="text-align:left;">2.83e-05</td>
+      <td style="text-align:left;">0.406</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gttcgagacc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">57922371</td>
+      <td style="text-align:left;">57922380</td>
+      <td style="text-align:left;">2.83e-05</td>
+      <td style="text-align:left;">0.406</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gttcgagacc</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">44224145</td>
+      <td style="text-align:left;">44224154</td>
+      <td style="text-align:left;">2.98e-05</td>
+      <td style="text-align:left;">0.406</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTCGGGGCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">3073415</td>
+      <td style="text-align:left;">3073424</td>
+      <td style="text-align:left;">4.13e-05</td>
+      <td style="text-align:left;">0.498</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTGGGGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65213049</td>
+      <td style="text-align:left;">65213058</td>
+      <td style="text-align:left;">4.47e-05</td>
+      <td style="text-align:left;">0.498</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTCGAGTCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">52448152</td>
+      <td style="text-align:left;">52448161</td>
+      <td style="text-align:left;">5.01e-05</td>
+      <td style="text-align:left;">0.498</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTCCGGGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">3074166</td>
+      <td style="text-align:left;">3074175</td>
+      <td style="text-align:left;">5.28e-05</td>
+      <td style="text-align:left;">0.498</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTCGCGGCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65212183</td>
+      <td style="text-align:left;">65212192</td>
+      <td style="text-align:left;">6.26e-05</td>
+      <td style="text-align:left;">0.548</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTTGGGTCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55880004</td>
+      <td style="text-align:left;">55880013</td>
+      <td style="text-align:left;">7.64e-05</td>
+      <td style="text-align:left;">0.567</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTGGGGGCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">62493311</td>
+      <td style="text-align:left;">62493320</td>
+      <td style="text-align:left;">8.13e-05</td>
+      <td style="text-align:left;">0.567</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTCGCGTCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">52445988</td>
+      <td style="text-align:left;">52445997</td>
+      <td style="text-align:left;">8.26e-05</td>
+      <td style="text-align:left;">0.567</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTGGGGTCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">44224105</td>
+      <td style="text-align:left;">44224114</td>
+      <td style="text-align:left;">8.53e-05</td>
+      <td style="text-align:left;">0.567</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTCAGGGCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">86047220</td>
+      <td style="text-align:left;">86047229</td>
+      <td style="text-align:left;">9.11e-05</td>
+      <td style="text-align:left;">0.567</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTCGGCGCC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55879158</td>
+      <td style="text-align:left;">55879167</td>
+      <td style="text-align:left;">9.56e-05</td>
+      <td style="text-align:left;">0.567</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CTTGGAGACC</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-STTCGGGDCC</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chrX</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">77359526</td>
+      <td style="text-align:left;">77359535</td>
+      <td style="text-align:left;">9.71e-05</td>
+      <td style="text-align:left;">0.567</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GTTCGCGGCG</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --parse-genomic-coord --verbosity 1 --oc peaksSet2_promoters_nearest_gene_MEME_ChIP/fimo_out_3 --bgfile peaksSet2_promoters_nearest_gene_MEME_ChIP/background --motif 4-STTCGGGDCC peaksSet2_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet2_promoters_nearest_gene_MEME_ChIP/peaksSet2_promoters_nearest_gene.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = peaksSet2_promoters_nearest_gene_MEME_ChIP/fimo_out_3</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = peaksSet2_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = peaksSet2_promoters_nearest_gene_MEME_ChIP/peaksSet2_promoters_nearest_gene.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = peaksSet2_promoters_nearest_gene_MEME_ChIP/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

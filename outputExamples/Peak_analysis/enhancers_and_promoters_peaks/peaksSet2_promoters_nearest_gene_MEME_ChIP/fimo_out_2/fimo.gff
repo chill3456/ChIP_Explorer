@@ -1,0 +1,8 @@
+##gff-version 3
+chr1	fimo	nucleotide_motif	173831340	173831346	41.2	-	.	Name=3-GACCACC_chr1-;Alias=STREME-3;ID=3-GACCACC-STREME-3-1-chr1;pvalue=7.55e-05;qvalue=1;sequence=GACCACC;
+chr11	fimo	nucleotide_motif	62608588	62608594	41.2	+	.	Name=3-GACCACC_chr11+;Alias=STREME-3;ID=3-GACCACC-STREME-3-1-chr11;pvalue=7.55e-05;qvalue=1;sequence=gaccacc;
+chr11	fimo	nucleotide_motif	65190956	65190962	41.2	-	.	Name=3-GACCACC_chr11-;Alias=STREME-3;ID=3-GACCACC-STREME-3-1-chr11;pvalue=7.55e-05;qvalue=1;sequence=GACCACC;
+chr12	fimo	nucleotide_motif	52448166	52448172	41.2	+	.	Name=3-GACCACC_chr12+;Alias=STREME-3;ID=3-GACCACC-STREME-3-1-chr12;pvalue=7.55e-05;qvalue=1;sequence=GACCACC;
+chr16	fimo	nucleotide_motif	3073282	3073288	41.2	-	.	Name=3-GACCACC_chr16-;Alias=STREME-3;ID=3-GACCACC-STREME-3-1-chr16;pvalue=7.55e-05;qvalue=1;sequence=GACCACC;
+chr19	fimo	nucleotide_motif	13056627	13056633	41.2	-	.	Name=3-GACCACC_chr19-;Alias=STREME-3;ID=3-GACCACC-STREME-3-1-chr19;pvalue=7.55e-05;qvalue=1;sequence=GACCACC;
+chr6	fimo	nucleotide_motif	44224126	44224132	41.2	-	.	Name=3-GACCACC_chr6-;Alias=STREME-3;ID=3-GACCACC-STREME-3-1-chr6;pvalue=7.55e-05;qvalue=1;sequence=GACCACC;

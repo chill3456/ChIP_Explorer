@@ -1,0 +1,7 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+5-MCGCTCCG	STREME-5	chrUn_gl000220	119036	119043	-	12.7353	3.93e-05	0.481	ACGCTCCG
+5-MCGCTCCG	STREME-5	chr20	55043459	55043466	-	12.7353	3.93e-05	0.481	ACGCTCCG
+
+# FIMO (Find Individual Motif Occurrences): Version 5.4.1 compiled on Nov  7 2022 at 13:03:04
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc peaksSet3_promoters_nearest_gene_MEME_ChIP/fimo_out_4 --bgfile peaksSet3_promoters_nearest_gene_MEME_ChIP/background --motif 5-MCGCTCCG peaksSet3_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet3_promoters_nearest_gene_MEME_ChIP/peaksSet3_promoters_nearest_gene.fasta

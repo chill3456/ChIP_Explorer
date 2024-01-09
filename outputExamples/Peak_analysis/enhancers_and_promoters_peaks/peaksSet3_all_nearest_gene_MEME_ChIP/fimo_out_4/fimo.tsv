@@ -1,0 +1,10 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+5-CATCTAGA	STREME-5	chr3	42642095	42642102	+	16.5128	5.54e-06	0.216	CATCTAGA
+5-CATCTAGA	STREME-5	chr5	150575539	150575546	+	11.7564	2.21e-05	0.311	GATCTAGA
+5-CATCTAGA	STREME-5	chr21	9827297	9827304	-	11.5897	3.99e-05	0.311	TATCTAGA
+5-CATCTAGA	STREME-5	chr6	58778962	58778969	+	11.5897	3.99e-05	0.311	aatctaga
+5-CATCTAGA	STREME-5	chr6	58779301	58779308	-	11.5897	3.99e-05	0.311	TATCTAGA
+
+# FIMO (Find Individual Motif Occurrences): Version 5.4.1 compiled on Nov  7 2022 at 13:03:04
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc peaksSet3_all_nearest_gene_MEME_ChIP/fimo_out_4 --bgfile peaksSet3_all_nearest_gene_MEME_ChIP/background --motif 5-CATCTAGA peaksSet3_all_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet3_all_nearest_gene_MEME_ChIP/peaksSet3_all_nearest_gene.fasta

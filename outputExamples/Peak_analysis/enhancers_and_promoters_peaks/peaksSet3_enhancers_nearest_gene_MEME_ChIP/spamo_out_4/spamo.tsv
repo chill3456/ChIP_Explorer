@@ -1,0 +1,13 @@
+prim_db	prim_id	prim_alt	prim_cons	sec_db	sec_id	sec_alt	sec_cons	trim_left	trim_right	red_db	red_id	red_alt	E-value	gap	orient	count	total	adj_p-value	p-value
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	streme.xml	1-RCYCCTCCCCCD	STREME-1	RCYCCTCCCCCD	0	1	.	.	.	2.45e-01	2	8	4	24	2.74e-06	2.47e-05
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	meme.xml	CCCNBCCCCVCCCAC	MEME-1	CCCNBCCCCVCCCAC	0	0	meme.xml	1-RCYCCTCCCCCD	STREME-1	6.54e+00	3	8	3	30	1.72e-01	8.18e-01
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	meme.xml	DGKKGGGGGAGGGGT	MEME-3	DGKKGGGGGAGGGGT	0	0	.	.	.	3.72e-01	65	3	3	35	4.32e-06	3.89e-05
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	streme.xml	4-GCCCCTCCCCCCMCA	STREME-4	GCCCCTCCCCCCMCA	0	0	.	.	.	4.00e+00	2	2	2	19	7.41e-02	5.00e-01
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	meme.xml	GGWGGGGGAGGRG	MEME-2	GGWGGGGGAGGRG	0	0	.	.	.	5.56e+00	3	3	2	25	1.24e-01	6.96e-01
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	streme.xml	2-CCTGSSCAGG	STREME-2	CCTGSSCAGG	0	0	.	.	.	7.16e+00	49	3	1	1	2.21e-01	8.95e-01
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	0	0	.	.	.	7.99e+00	26	8	2	16	5.47e-01	9.99e-01
+streme.xml	5-SAASAAATC	STREME-5	SAASAAATC	streme.xml	3-ACCCACCCACTCAC	STREME-3	ACCCACCCACTCAC	0	0	.	.	.	8.00e+00	9	3	1	13	9.60e-01	1.00e+00
+
+# SpaMo (Spaced Motif Analysis Tool): Version 5.4.1 compiled on Nov  7 2022 at 13:03:05
+# The format of this file is described at https://meme-suite.org/meme/doc/spamo-output-format.html.
+# spamo -verbosity 1 -oc peaksSet3_enhancers_nearest_gene_MEME_ChIP/spamo_out_4 -bgfile peaksSet3_enhancers_nearest_gene_MEME_ChIP/background -keepprimary -primary 5-SAASAAATC peaksSet3_enhancers_nearest_gene_MEME_ChIP/peaksSet3_enhancers_nearest_gene.fasta peaksSet3_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet3_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet3_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml

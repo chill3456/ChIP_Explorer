@@ -1,0 +1,6 @@
+##gff-version 3
+chr21	fimo	nucleotide_motif	9827297	9827304	 44	-	.	Name=5-CATCTAGA_chr21-;Alias=STREME-5;ID=5-CATCTAGA-STREME-5-1-chr21;pvalue=3.99e-05;qvalue=0.311;sequence=TATCTAGA;
+chr3	fimo	nucleotide_motif	42642095	42642102	52.6	+	.	Name=5-CATCTAGA_chr3+;Alias=STREME-5;ID=5-CATCTAGA-STREME-5-1-chr3;pvalue=5.54e-06;qvalue=0.216;sequence=CATCTAGA;
+chr5	fimo	nucleotide_motif	150575539	150575546	46.5	+	.	Name=5-CATCTAGA_chr5+;Alias=STREME-5;ID=5-CATCTAGA-STREME-5-1-chr5;pvalue=2.21e-05;qvalue=0.311;sequence=GATCTAGA;
+chr6	fimo	nucleotide_motif	58778962	58778969	 44	+	.	Name=5-CATCTAGA_chr6+;Alias=STREME-5;ID=5-CATCTAGA-STREME-5-1-chr6;pvalue=3.99e-05;qvalue=0.311;sequence=aatctaga;
+chr6	fimo	nucleotide_motif	58779301	58779308	 44	-	.	Name=5-CATCTAGA_chr6-;Alias=STREME-5;ID=5-CATCTAGA-STREME-5-2-chr6;pvalue=3.99e-05;qvalue=0.311;sequence=TATCTAGA;

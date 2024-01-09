@@ -1,0 +1,9 @@
+peaksSet1_all	4051
+peaksSet1_enhancers	1946
+peaksSet1_promoters	2105
+peaksSet2_all	226
+peaksSet2_enhancers	181
+peaksSet2_promoters	45
+peaksSet3_all	30
+peaksSet3_enhancers	13
+peaksSet3_promoters	17

@@ -1,0 +1,7 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+2-CCTGSSCAGG	STREME-2	chr19	2169135	2169144	+	12.7143	3.83e-05	0.267	CCTGGCCTGG
+2-CCTGSSCAGG	STREME-2	chr19	2169135	2169144	-	12.7143	3.83e-05	0.267	CCAGGCCAGG
+
+# FIMO (Find Individual Motif Occurrences): Version 5.4.1 compiled on Nov  7 2022 at 13:03:04
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc peaksSet3_enhancers_nearest_gene_MEME_ChIP/fimo_out_3 --bgfile peaksSet3_enhancers_nearest_gene_MEME_ChIP/background --motif 2-CCTGSSCAGG peaksSet3_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet3_enhancers_nearest_gene_MEME_ChIP/peaksSet3_enhancers_nearest_gene.fasta

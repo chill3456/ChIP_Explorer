@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Begin document body -->
+<fimo version="5.4.1" release="Sat Aug 21 19:23:23 2021 -0700">
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation=  xmlns:fimo="http://noble.gs.washington.edu/schema/fimo"
+>
+<command-line>fimo --parse-genomic-coord --verbosity 1 --oc peaksSet1_all_nearest_gene_MEME_ChIP/fimo_out_4 --bgfile peaksSet1_all_nearest_gene_MEME_ChIP/background --motif 3-RRCCAATSRGM peaksSet1_all_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet1_all_nearest_gene_MEME_ChIP/peaksSet1_all_nearest_gene.fasta</command-line>
+<settings>
+<setting name="output directory">peaksSet1_all_nearest_gene_MEME_ChIP/fimo_out_4</setting>
+<setting name="MEME file name">peaksSet1_all_nearest_gene_MEME_ChIP/streme_out/streme.xml</setting>
+<setting name="sequence file name">peaksSet1_all_nearest_gene_MEME_ChIP/peaksSet1_all_nearest_gene.fasta</setting>
+<setting name="background file name">peaksSet1_all_nearest_gene_MEME_ChIP/background</setting>
+<setting name="allow clobber">true</setting>
+<setting name="compute q-values">true</setting>
+<setting name="parse genomic coord.">true</setting>
+<setting name="text only">false</setting>
+<setting name="scan both strands">true</setting>
+<setting name="output threshold">0.0001</setting>
+<setting name="threshold type">p-value</setting>
+<setting name="max stored scores">100000</setting>
+<setting name="pseudocount">0.1</setting>
+<setting name="verbosity">1</setting>
+<setting name="selected motif">3-RRCCAATSRGM</setting>
+</settings>
+<sequence-data num-sequences="4051" num-residues="1002930" />
+<alphabet name="DNA" like="dna">
+<letter id="A" symbol="A" complement="T" name="Adenine" colour="CC0000"/>
+<letter id="C" symbol="C" complement="G" name="Cytosine" colour="0000CC"/>
+<letter id="G" symbol="G" complement="C" name="Guanine" colour="FFB300"/>
+<letter id="T" symbol="T" aliases="U" complement="A" name="Thymine" colour="008000"/>
+<letter id="N" symbol="N" aliases="X." equals="ACGT" name="Any base"/>
+<letter id="V" symbol="V" equals="ACG" name="Not T"/>
+<letter id="H" symbol="H" equals="ACT" name="Not G"/>
+<letter id="D" symbol="D" equals="AGT" name="Not C"/>
+<letter id="B" symbol="B" equals="CGT" name="Not A"/>
+<letter id="M" symbol="M" equals="AC" name="Amino"/>
+<letter id="R" symbol="R" equals="AG" name="Purine"/>
+<letter id="W" symbol="W" equals="AT" name="Weak"/>
+<letter id="S" symbol="S" equals="CG" name="Strong"/>
+<letter id="Y" symbol="Y" equals="CT" name="Pyrimidine"/>
+<letter id="K" symbol="K" equals="GT" name="Keto"/>
+</alphabet>
+<motif name="1-RGCCCCGCCCCY" alt="STREME-1" width="12" best-possible-match="GGCCCCGCCCCC"/>
+<motif name="2-DVTGASTCABH" alt="STREME-2" width="11" best-possible-match="GGTGAGTCACC"/>
+<motif name="3-RRCCAATSRGM" alt="STREME-3" width="11" best-possible-match="AGCCAATCAGA"/>
+<motif name="4-CCCCACCC" alt="STREME-4" width="8" best-possible-match="CCCCACCC"/>
+<motif name="5-ACTACAAYTCCC" alt="STREME-5" width="12" best-possible-match="ACTACAACTCCC"/>
+<motif name="6-RTTCAACTC" alt="STREME-6" width="9" best-possible-match="ATTCAACTC"/>
+<motif name="7-ATAAAAACTAGA" alt="STREME-7" width="12" best-possible-match="ATAAAAACTAGA"/>
+<motif name="8-ACGTCAC" alt="STREME-8" width="7" best-possible-match="ACGTCAC"/>
+<motif name="9-AAAGGAA" alt="STREME-9" width="7" best-possible-match="AAAGGAA"/>
+<motif name="10-AACCACA" alt="STREME-10" width="7" best-possible-match="AACCACA"/>
+<motif name="11-AAATRTCCACTTGC" alt="STREME-11" width="14" best-possible-match="AAATATCCACTTGC"/>
+<motif name="12-AGTTTCTGAGAATG" alt="STREME-12" width="14" best-possible-match="AGTTTCTGAGAATG"/>
+<motif name="13-CTCTTTTTGTAGWAT" alt="STREME-13" width="15" best-possible-match="CTCTTTTTGTAGAAT"/>
+<motif name="14-GTAAAYA" alt="STREME-14" width="7" best-possible-match="GTAAATA"/>
+<motif name="15-ACTTCCGGKC" alt="STREME-15" width="10" best-possible-match="ACTTCCGGGC"/>
+<background source="peaksSet1_all_nearest_gene_MEME_ChIP/background">
+<value letter="A">0.202</value>
+<value letter="C">0.298</value>
+<value letter="G">0.298</value>
+<value letter="T">0.202</value>
+</background>
+<cisml-file>cisml.xml</cisml-file>
+</fimo>

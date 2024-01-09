@@ -1,0 +1,8 @@
+Query_ID	Target_ID	Optimal_offset	p-value	E-value	q-value	Overlap	Query_consensus	Target_consensus	Orientation
+CTYGGGAGGCKGAGG	MA1596.1	0	7.98193e-12	1.65226e-08	3.30452e-08	15	CTTGGGAGGCTGAGG	CTCGGGAGGCTGAGGC	-
+CTYGGGAGGCKGAGG	MA1587.1	-1	6.56981e-06	0.0135995	0.0135995	14	CTTGGGAGGCTGAGG	TCAGGAGGTCGAGG	-
+CTYGGGAGGCKGAGG	MA0528.2	-3	0.000478655	0.990816	0.660544	12	CTTGGGAGGCTGAGG	GGGGGGAGGAGG	+
+
+# Tomtom (Motif Comparison Tool): Version 5.4.1 compiled on Nov  7 2022 at 13:03:06
+# The format of this file is described at https://meme-suite.org/meme/doc/tomtom-output-format.html.
+# tomtom -verbosity 1 -oc peaksSet2_enhancers_nearest_gene_MEME_ChIP/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc peaksSet2_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme

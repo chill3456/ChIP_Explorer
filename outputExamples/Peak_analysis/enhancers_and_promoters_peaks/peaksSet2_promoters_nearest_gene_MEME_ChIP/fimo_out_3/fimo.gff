@@ -1,0 +1,22 @@
+##gff-version 3
+chr1	fimo	nucleotide_motif	86047220	86047229	40.4	+	.	Name=4-STTCGGGDCC_chr1+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr1;pvalue=9.11e-05;qvalue=0.567;sequence=CTTCGGCGCC;
+chr1	fimo	nucleotide_motif	173831120	173831129	48.9	-	.	Name=4-STTCGGGDCC_chr1-;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr1;pvalue=1.29e-05;qvalue=0.406;sequence=CTTCGAGACC;
+chr11	fimo	nucleotide_motif	65212183	65212192	 42	+	.	Name=4-STTCGGGDCC_chr11+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr11;pvalue=6.26e-05;qvalue=0.548;sequence=CTTTGGGTCC;
+chr11	fimo	nucleotide_motif	65213049	65213058	43.5	+	.	Name=4-STTCGGGDCC_chr11+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr11;pvalue=4.47e-05;qvalue=0.498;sequence=GTTCGAGTCC;
+chr11	fimo	nucleotide_motif	65656256	65656265	 59	+	.	Name=4-STTCGGGDCC_chr11+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr11;pvalue=1.26e-06;qvalue=0.0775;sequence=CTTCGGGACC;
+chr11	fimo	nucleotide_motif	65658553	65658562	 59	+	.	Name=4-STTCGGGDCC_chr11+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr11;pvalue=1.26e-06;qvalue=0.0775;sequence=CTTCGGGACC;
+chr12	fimo	nucleotide_motif	52448152	52448161	 43	+	.	Name=4-STTCGGGDCC_chr12+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr12;pvalue=5.01e-05;qvalue=0.498;sequence=GTCCGGGACC;
+chr12	fimo	nucleotide_motif	52445988	52445997	40.8	+	.	Name=4-STTCGGGDCC_chr12+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-2-chr12;pvalue=8.26e-05;qvalue=0.567;sequence=CTTGGGGTCG;
+chr16	fimo	nucleotide_motif	3073415	3073424	43.8	+	.	Name=4-STTCGGGDCC_chr16+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr16;pvalue=4.13e-05;qvalue=0.498;sequence=GTTGGGGACC;
+chr16	fimo	nucleotide_motif	3074194	3074203	 48	+	.	Name=4-STTCGGGDCC_chr16+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr16;pvalue=1.56e-05;qvalue=0.406;sequence=GTTCGGGACG;
+chr16	fimo	nucleotide_motif	3074166	3074175	42.8	+	.	Name=4-STTCGGGDCC_chr16+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-2-chr16;pvalue=5.28e-05;qvalue=0.498;sequence=CTTCGCGGCG;
+chr17	fimo	nucleotide_motif	57920424	57920433	45.5	-	.	Name=4-STTCGGGDCC_chr17-;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr17;pvalue=2.83e-05;qvalue=0.406;sequence=GTTCGAGACC;
+chr17	fimo	nucleotide_motif	57921159	57921168	45.5	+	.	Name=4-STTCGGGDCC_chr17+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-2-chr17;pvalue=2.83e-05;qvalue=0.406;sequence=gttcgagacc;
+chr17	fimo	nucleotide_motif	57922371	57922380	45.5	+	.	Name=4-STTCGGGDCC_chr17+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-3-chr17;pvalue=2.83e-05;qvalue=0.406;sequence=gttcgagacc;
+chr17	fimo	nucleotide_motif	62493311	62493320	40.9	+	.	Name=4-STTCGGGDCC_chr17+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr17;pvalue=8.13e-05;qvalue=0.567;sequence=GTTCGCGTCG;
+chr19	fimo	nucleotide_motif	55876067	55876076	45.5	-	.	Name=4-STTCGGGDCC_chr19-;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr19;pvalue=2.83e-05;qvalue=0.406;sequence=GTTCGAGACC;
+chr19	fimo	nucleotide_motif	55880004	55880013	41.2	-	.	Name=4-STTCGGGDCC_chr19-;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr19;pvalue=7.64e-05;qvalue=0.567;sequence=GTTGGGGGCC;
+chr19	fimo	nucleotide_motif	55879158	55879167	40.2	-	.	Name=4-STTCGGGDCC_chr19-;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-2-chr19;pvalue=9.56e-05;qvalue=0.567;sequence=CTTGGAGACC;
+chr6	fimo	nucleotide_motif	44224145	44224154	45.2	+	.	Name=4-STTCGGGDCC_chr6+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chr6;pvalue=2.98e-05;qvalue=0.406;sequence=GTTCGGGGCG;
+chr6	fimo	nucleotide_motif	44224105	44224114	40.7	+	.	Name=4-STTCGGGDCC_chr6+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-2-chr6;pvalue=8.53e-05;qvalue=0.567;sequence=CTTCAGGGCC;
+chrX	fimo	nucleotide_motif	77359526	77359535	40.1	+	.	Name=4-STTCGGGDCC_chrX+;Alias=STREME-4;ID=4-STTCGGGDCC-STREME-4-1-chrX;pvalue=9.71e-05;qvalue=0.567;sequence=GTTCGCGGCG;

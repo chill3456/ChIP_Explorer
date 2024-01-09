@@ -1,0 +1,1811 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.4.1, (Release date: Sat Aug 21 19:23:23 2021 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="https://meme-suite.org/meme/doc/fimo-output-format.html">https://meme-suite.org/meme/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="https://meme-suite.org">https://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE peaksSet1_promoters_nearest_gene_MEME_ChIP/peaksSet1_promoters_nearest_gene.fasta
+  <br />
+  Database contains 2105 sequences, 557096 residues
+</p>
+<p>
+  MOTIFS peaksSet1_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">1-RGGGGCGGGGCBNG</td>
+        <td style="text-align:right;padding-left: 1em;">14</td>
+        <td style="text-align:left;padding-left: 1em;">GGGGGCGGGGCCTG</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">2-KACGTCACC</td>
+        <td style="text-align:right;padding-left: 1em;">9</td>
+        <td style="text-align:left;padding-left: 1em;">GACGTCACC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">3-YRRCCAATSRGMR</td>
+        <td style="text-align:right;padding-left: 1em;">13</td>
+        <td style="text-align:left;padding-left: 1em;">CAGCCAATCAGAG</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">4-CACTTCCG</td>
+        <td style="text-align:right;padding-left: 1em;">8</td>
+        <td style="text-align:left;padding-left: 1em;">CACTTCCG</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">5-RACTACAAYTCCCA</td>
+        <td style="text-align:right;padding-left: 1em;">14</td>
+        <td style="text-align:left;padding-left: 1em;">GACTACAATTCCCA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">6-ACTGATCA</td>
+        <td style="text-align:right;padding-left: 1em;">8</td>
+        <td style="text-align:left;padding-left: 1em;">ACTGATCA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">7-ACGTGAC</td>
+        <td style="text-align:right;padding-left: 1em;">7</td>
+        <td style="text-align:left;padding-left: 1em;">ACGTGAC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">8-GGCTCTGCCTAC</td>
+        <td style="text-align:right;padding-left: 1em;">12</td>
+        <td style="text-align:left;padding-left: 1em;">GGCTCTGCCTAC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">9-AGAGATATGTCACAA</td>
+        <td style="text-align:right;padding-left: 1em;">15</td>
+        <td style="text-align:left;padding-left: 1em;">AGAGATATGTCACAA</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">10-GCGCAKGCGCAS</td>
+        <td style="text-align:right;padding-left: 1em;">12</td>
+        <td style="text-align:left;padding-left: 1em;">GCGCATGCGCAG</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (peaksSet1_promoters_nearest_gene_MEME_ChIP/background):
+<br/>
+
+A 0.173 C 0.327 G 0.327 T 0.173 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 144 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chrUn_gl000219</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">99654</td>
+      <td style="text-align:left;">99661</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">1310886</td>
+      <td style="text-align:left;">1310893</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">1310908</td>
+      <td style="text-align:left;">1310915</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">2097969</td>
+      <td style="text-align:left;">2097976</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">2205680</td>
+      <td style="text-align:left;">2205687</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">3605924</td>
+      <td style="text-align:left;">3605931</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">6917957</td>
+      <td style="text-align:left;">6917964</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">7475910</td>
+      <td style="text-align:left;">7475917</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">7680244</td>
+      <td style="text-align:left;">7680251</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">8435763</td>
+      <td style="text-align:left;">8435770</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">9336401</td>
+      <td style="text-align:left;">9336408</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">9413388</td>
+      <td style="text-align:left;">9413395</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr4</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">10118651</td>
+      <td style="text-align:left;">10118658</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">11900774</td>
+      <td style="text-align:left;">11900781</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr4</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">15683413</td>
+      <td style="text-align:left;">15683420</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">15982550</td>
+      <td style="text-align:left;">15982557</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">16308720</td>
+      <td style="text-align:left;">16308727</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr10</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">16859725</td>
+      <td style="text-align:left;">16859732</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18633161</td>
+      <td style="text-align:left;">18633168</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">18655932</td>
+      <td style="text-align:left;">18655939</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">19380306</td>
+      <td style="text-align:left;">19380313</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">19496586</td>
+      <td style="text-align:left;">19496593</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">19774516</td>
+      <td style="text-align:left;">19774523</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">20987936</td>
+      <td style="text-align:left;">20987943</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">20988010</td>
+      <td style="text-align:left;">20988017</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">23568701</td>
+      <td style="text-align:left;">23568708</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">23652767</td>
+      <td style="text-align:left;">23652774</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">24299346</td>
+      <td style="text-align:left;">24299353</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">25015943</td>
+      <td style="text-align:left;">25015950</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">27168946</td>
+      <td style="text-align:left;">27168953</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">27648752</td>
+      <td style="text-align:left;">27648759</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr13</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">29233220</td>
+      <td style="text-align:left;">29233227</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr21</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">30365273</td>
+      <td style="text-align:left;">30365280</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">30585357</td>
+      <td style="text-align:left;">30585364</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">32110598</td>
+      <td style="text-align:left;">32110605</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr18</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">32821004</td>
+      <td style="text-align:left;">32821011</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">33076694</td>
+      <td style="text-align:left;">33076701</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr14</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">35008923</td>
+      <td style="text-align:left;">35008930</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">35969469</td>
+      <td style="text-align:left;">35969476</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">36190723</td>
+      <td style="text-align:left;">36190730</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr3</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">37034990</td>
+      <td style="text-align:left;">37034997</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">37371214</td>
+      <td style="text-align:left;">37371221</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr21</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">37692428</td>
+      <td style="text-align:left;">37692435</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr21</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">37692466</td>
+      <td style="text-align:left;">37692473</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">38865358</td>
+      <td style="text-align:left;">38865365</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">40506383</td>
+      <td style="text-align:left;">40506390</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">40723696</td>
+      <td style="text-align:left;">40723703</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr3</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">42003784</td>
+      <td style="text-align:left;">42003791</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr20</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">42142783</td>
+      <td style="text-align:left;">42142790</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">42981656</td>
+      <td style="text-align:left;">42981663</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">43543805</td>
+      <td style="text-align:left;">43543812</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr20</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">43595120</td>
+      <td style="text-align:left;">43595127</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">44617566</td>
+      <td style="text-align:left;">44617573</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">44669164</td>
+      <td style="text-align:left;">44669171</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">44669237</td>
+      <td style="text-align:left;">44669244</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">45393898</td>
+      <td style="text-align:left;">45393905</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">47789183</td>
+      <td style="text-align:left;">47789190</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">48667932</td>
+      <td style="text-align:left;">48667939</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chrX</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">48815645</td>
+      <td style="text-align:left;">48815652</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr20</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">49126820</td>
+      <td style="text-align:left;">49126827</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">49412605</td>
+      <td style="text-align:left;">49412612</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">50380915</td>
+      <td style="text-align:left;">50380922</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">51611659</td>
+      <td style="text-align:left;">51611666</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">51611735</td>
+      <td style="text-align:left;">51611742</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr13</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">52158500</td>
+      <td style="text-align:left;">52158507</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">52693148</td>
+      <td style="text-align:left;">52693155</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">52772844</td>
+      <td style="text-align:left;">52772851</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">53574423</td>
+      <td style="text-align:left;">53574430</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55230324</td>
+      <td style="text-align:left;">55230331</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55746732</td>
+      <td style="text-align:left;">55746739</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55791504</td>
+      <td style="text-align:left;">55791511</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">56223418</td>
+      <td style="text-align:left;">56223425</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">56485256</td>
+      <td style="text-align:left;">56485263</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">56595218</td>
+      <td style="text-align:left;">56595225</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">56595572</td>
+      <td style="text-align:left;">56595579</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">56632820</td>
+      <td style="text-align:left;">56632827</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">56632826</td>
+      <td style="text-align:left;">56632833</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">58469588</td>
+      <td style="text-align:left;">58469595</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">cacttccg</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">58951767</td>
+      <td style="text-align:left;">58951774</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr15</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">59949726</td>
+      <td style="text-align:left;">59949733</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">62380491</td>
+      <td style="text-align:left;">62380498</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64081172</td>
+      <td style="text-align:left;">64081179</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">64751428</td>
+      <td style="text-align:left;">64751435</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">66205615</td>
+      <td style="text-align:left;">66205622</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">66726179</td>
+      <td style="text-align:left;">66726186</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr4</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">71705600</td>
+      <td style="text-align:left;">71705607</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">72127684</td>
+      <td style="text-align:left;">72127691</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">73882269</td>
+      <td style="text-align:left;">73882276</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">73901167</td>
+      <td style="text-align:left;">73901174</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">74884510</td>
+      <td style="text-align:left;">74884517</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">75019143</td>
+      <td style="text-align:left;">75019150</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr15</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">80216264</td>
+      <td style="text-align:left;">80216271</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">80597383</td>
+      <td style="text-align:left;">80597390</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">81110865</td>
+      <td style="text-align:left;">81110872</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr4</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">83295321</td>
+      <td style="text-align:left;">83295328</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">86781640</td>
+      <td style="text-align:left;">86781647</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">88969364</td>
+      <td style="text-align:left;">88969371</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">93835896</td>
+      <td style="text-align:left;">93835903</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">94227161</td>
+      <td style="text-align:left;">94227168</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">96931728</td>
+      <td style="text-align:left;">96931735</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr10</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">102672718</td>
+      <td style="text-align:left;">102672725</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">102861316</td>
+      <td style="text-align:left;">102861323</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">104359610</td>
+      <td style="text-align:left;">104359617</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr10</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">105156383</td>
+      <td style="text-align:left;">105156390</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr14</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">105957331</td>
+      <td style="text-align:left;">105957338</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">106773592</td>
+      <td style="text-align:left;">106773599</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">107718052</td>
+      <td style="text-align:left;">107718059</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">108093478</td>
+      <td style="text-align:left;">108093485</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">108166631</td>
+      <td style="text-align:left;">108166638</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">108210157</td>
+      <td style="text-align:left;">108210164</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">108210205</td>
+      <td style="text-align:left;">108210212</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">109618638</td>
+      <td style="text-align:left;">109618645</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">110371775</td>
+      <td style="text-align:left;">110371782</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">110371837</td>
+      <td style="text-align:left;">110371844</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">110562129</td>
+      <td style="text-align:left;">110562136</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr13</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">111365394</td>
+      <td style="text-align:left;">111365401</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">114647669</td>
+      <td style="text-align:left;">114647676</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">118955587</td>
+      <td style="text-align:left;">118955594</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr3</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">120068194</td>
+      <td style="text-align:left;">120068201</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">122933372</td>
+      <td style="text-align:left;">122933379</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">132565404</td>
+      <td style="text-align:left;">132565411</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">133464372</td>
+      <td style="text-align:left;">133464379</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">137540545</td>
+      <td style="text-align:left;">137540552</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">137687086</td>
+      <td style="text-align:left;">137687093</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">140071032</td>
+      <td style="text-align:left;">140071039</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">144373519</td>
+      <td style="text-align:left;">144373526</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr8</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">146127091</td>
+      <td style="text-align:left;">146127098</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">148778393</td>
+      <td style="text-align:left;">148778400</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">149737212</td>
+      <td style="text-align:left;">149737219</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">150552072</td>
+      <td style="text-align:left;">150552079</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">153700478</td>
+      <td style="text-align:left;">153700485</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">156698533</td>
+      <td style="text-align:left;">156698540</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">170615838</td>
+      <td style="text-align:left;">170615845</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr3</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">170626626</td>
+      <td style="text-align:left;">170626633</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">170863422</td>
+      <td style="text-align:left;">170863429</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">173837492</td>
+      <td style="text-align:left;">173837499</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">175875208</td>
+      <td style="text-align:left;">175875215</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">180650643</td>
+      <td style="text-align:left;">180650650</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">197170426</td>
+      <td style="text-align:left;">197170433</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">201924588</td>
+      <td style="text-align:left;">201924595</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">220408614</td>
+      <td style="text-align:left;">220408621</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">235530733</td>
+      <td style="text-align:left;">235530740</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr2</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">238969403</td>
+      <td style="text-align:left;">238969410</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">4-CACTTCCG</td>
+      <td style="text-align:left;">STREME-4</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">246729608</td>
+      <td style="text-align:left;">246729615</td>
+      <td style="text-align:left;">1.94e-05</td>
+      <td style="text-align:left;">0.146</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">CACTTCCG</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --parse-genomic-coord --verbosity 1 --oc peaksSet1_promoters_nearest_gene_MEME_ChIP/fimo_out_5 --bgfile peaksSet1_promoters_nearest_gene_MEME_ChIP/background --motif 4-CACTTCCG peaksSet1_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet1_promoters_nearest_gene_MEME_ChIP/peaksSet1_promoters_nearest_gene.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = peaksSet1_promoters_nearest_gene_MEME_ChIP/fimo_out_5</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = peaksSet1_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = peaksSet1_promoters_nearest_gene_MEME_ChIP/peaksSet1_promoters_nearest_gene.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = peaksSet1_promoters_nearest_gene_MEME_ChIP/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

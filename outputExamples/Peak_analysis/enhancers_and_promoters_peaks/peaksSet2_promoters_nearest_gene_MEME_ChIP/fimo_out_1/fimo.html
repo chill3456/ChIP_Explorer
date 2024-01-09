@@ -1,0 +1,697 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns:cis="http://zlab.bu.edu/schema/cisml" xmlns:fimo="http://noble.gs.washington.edu/schema/cisml" xmlns:mem="http://noble.gs.washington.edu/meme">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<title>FIMO Results</title>
+<style type="text/css">
+td.left {text-align: left;}
+td.right {text-align: right; padding-right: 1cm;}
+</style>
+</head>
+<body color="#000000">
+<a name="top_buttons"></a>
+<hr>
+<table summary="buttons" align="left" cellspacing="0">
+<tr>
+<td bgcolor="#00FFFF"><a href="#database_and_motifs"><b>Database and Motifs</b></a></td>
+<td bgcolor="#DDFFDD"><a href="#sec_i"><b>High-scoring Motif Occurences</b></a></td>
+<td bgcolor="#DDDDFF"><a href="#debugging_information"><b>Debugging Information</b></a></td>
+<td bgcolor="#FFDD00"><a href="fimo.tsv""><b>Results in TSV Format</b></a></td>
+<td bgcolor="#FFDDFF"><a href="fimo.gff""><b>Results in GFF3 Format</b></a></td>
+</tr>
+</table>
+<br/>
+<br/>
+<hr/>
+<center><big><b>FIMO - Motif search tool</b></big></center>
+<hr>
+<p>
+FIMO version 5.4.1, (Release date: Sat Aug 21 19:23:23 2021 -0700)
+</p>
+<p>
+For further information on how to interpret these results please access <a href="https://meme-suite.org/meme/doc/fimo-output-format.html">https://meme-suite.org/meme/doc/fimo-output-format.html</a>.<br>
+To get a copy of the FIMO software please access <a href="https://meme-suite.org">https://meme-suite.org</a>
+
+</p>
+<p>If you use FIMO in your research, please cite the following paper:<br>
+Charles E. Grant, Timothy L. Bailey, and William Stafford Noble,
+"FIMO: Scanning for occurrences of a given motif",
+<i>Bioinformatics</i>, <b>27</b>(7):1017-1018, 2011.
+<a href="http://bioinformatics.oxfordjournals.org/content/27/7/1017">[full text]</a></p>
+<hr>
+<center><big><b><a name="database_and_motifs">DATABASE AND MOTIFS</a></b></big></center>
+<hr>
+<div style="padding-left: 0.75in; line-height: 1em; font-family: monospace;">
+<p>
+  DATABASE peaksSet2_promoters_nearest_gene_MEME_ChIP/peaksSet2_promoters_nearest_gene.fasta
+  <br />
+  Database contains 45 sequences, 62247 residues
+</p>
+<p>
+  MOTIFS peaksSet2_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml (DNA)
+  <table>
+    <thead>
+      <tr>
+        <th style="border-bottom: 1px dashed;">MOTIF</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;">WIDTH</th>
+        <th style="border-bottom: 1px dashed; padding-left: 1em;text-align:left;" >
+         BEST POSSIBLE MATCH
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="text-align:right;">1-GCCTYYYTBCCW</td>
+        <td style="text-align:right;padding-left: 1em;">12</td>
+        <td style="text-align:left;padding-left: 1em;">GCCTCTCTGCCT</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">2-AGCCTCYCACAC</td>
+        <td style="text-align:right;padding-left: 1em;">12</td>
+        <td style="text-align:left;padding-left: 1em;">AGCCTCCCACAC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">3-GACCACC</td>
+        <td style="text-align:right;padding-left: 1em;">7</td>
+        <td style="text-align:left;padding-left: 1em;">GACCACC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">4-STTCGGGDCC</td>
+        <td style="text-align:right;padding-left: 1em;">10</td>
+        <td style="text-align:left;padding-left: 1em;">CTTCGGGACC</td>
+       </tr>
+      <tr>
+        <td style="text-align:right;">5-AGTTTCYGTC</td>
+        <td style="text-align:right;padding-left: 1em;">10</td>
+        <td style="text-align:left;padding-left: 1em;">AGTTTCTGTC</td>
+       </tr>
+    </tbody>
+  </table>
+</p>
+<p>
+Random model letter frequencies (peaksSet2_promoters_nearest_gene_MEME_ChIP/background):
+<br/>
+
+A 0.231 C 0.269 G 0.269 T 0.231 </p>
+</div>
+<hr>
+<center><big><b><a name="sec_i">SECTION I: HIGH-SCORING MOTIF OCCURENCES</a></b></big></center>
+<hr>
+<ul>
+<li>
+There were 45 motif occurences with a p-value less than 0.0001.
+
+The full set of motif occurences can be seen in the
+TSV (tab-delimited values) output file
+<a href="fimo.tsv">fimo.tsv</a>, 
+the GFF3 file 
+<a href="fimo.gff">fimo.gff</a> 
+which may be suitable for uploading to the 
+<a href="http://genome.ucsc.edu/cgi-bin/hgTables">UCSC Genome Table Browser</a>
+(assuming the FASTA input sequences included genomic coordinates in UCSC or Galaxy format),
+or the XML file 
+<a href="fimo.xml">fimo.xml</a>.
+</li>
+<li>
+The <i>p</i>-value of a motif occurrence is defined as the
+probability of a random sequence of the same length as the motif
+matching that position of the sequence with as good or better a score.
+</li>
+<li>
+The score for the match of a position in a sequence to a motif
+is computed by summing the appropriate entries from each column of
+the position-dependent scoring matrix that represents the motif.
+</li>
+<li>
+The q-value of a motif occurrence is defined as the
+false discovery rate if the occurrence is accepted as significant.
+</li>
+<li>The table is sorted by increasing <i>p</i>-value.</li>
+</ul>
+<table border="1">
+<thead>
+<tr>
+<th>Motif ID</th>
+<th>Alt ID</th>
+<th>Sequence Name</th>
+<th>Strand</th>
+<th>Start</th>
+<th>End</th>
+<th>p-value</th>
+<th>q-value</th>
+<th>Matched Sequence</th>
+</tr>
+</thead>
+<tbody>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">86047367</td>
+      <td style="text-align:left;">86047378</td>
+      <td style="text-align:left;">1.34e-07</td>
+      <td style="text-align:left;">0.0144</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTTCTGCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">3073373</td>
+      <td style="text-align:left;">3073384</td>
+      <td style="text-align:left;">3.49e-07</td>
+      <td style="text-align:left;">0.0144</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCTCTGCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr6</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">44224049</td>
+      <td style="text-align:left;">44224060</td>
+      <td style="text-align:left;">4.74e-07</td>
+      <td style="text-align:left;">0.0144</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCTCTTCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">65191277</td>
+      <td style="text-align:left;">65191288</td>
+      <td style="text-align:left;">4.74e-07</td>
+      <td style="text-align:left;">0.0144</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCTCTTCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55874022</td>
+      <td style="text-align:left;">55874033</td>
+      <td style="text-align:left;">1.88e-06</td>
+      <td style="text-align:left;">0.0457</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCCTGCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55880466</td>
+      <td style="text-align:left;">55880477</td>
+      <td style="text-align:left;">2.85e-06</td>
+      <td style="text-align:left;">0.0483</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTCCTCCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55881291</td>
+      <td style="text-align:left;">55881302</td>
+      <td style="text-align:left;">2.99e-06</td>
+      <td style="text-align:left;">0.0483</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCTCTGCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">28975478</td>
+      <td style="text-align:left;">28975489</td>
+      <td style="text-align:left;">3.24e-06</td>
+      <td style="text-align:left;">0.0483</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTCCTGCTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">65212893</td>
+      <td style="text-align:left;">65212904</td>
+      <td style="text-align:left;">3.91e-06</td>
+      <td style="text-align:left;">0.0483</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCCTCCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr5</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">172196543</td>
+      <td style="text-align:left;">172196554</td>
+      <td style="text-align:left;">3.96e-06</td>
+      <td style="text-align:left;">0.0483</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCTTTTCTGCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55876185</td>
+      <td style="text-align:left;">55876196</td>
+      <td style="text-align:left;">4.38e-06</td>
+      <td style="text-align:left;">0.0485</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gcctctctcctt</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65195164</td>
+      <td style="text-align:left;">65195175</td>
+      <td style="text-align:left;">5.01e-06</td>
+      <td style="text-align:left;">0.0508</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCTTTCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">52446766</td>
+      <td style="text-align:left;">52446777</td>
+      <td style="text-align:left;">5.77e-06</td>
+      <td style="text-align:left;">0.054</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTCCTTCTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">65190602</td>
+      <td style="text-align:left;">65190613</td>
+      <td style="text-align:left;">8.17e-06</td>
+      <td style="text-align:left;">0.0708</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTCCTCCTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">100771449</td>
+      <td style="text-align:left;">100771460</td>
+      <td style="text-align:left;">8.73e-06</td>
+      <td style="text-align:left;">0.0708</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GACTCCCTGCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr3</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">112359935</td>
+      <td style="text-align:left;">112359946</td>
+      <td style="text-align:left;">1.04e-05</td>
+      <td style="text-align:left;">0.0766</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCTTCCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65656231</td>
+      <td style="text-align:left;">65656242</td>
+      <td style="text-align:left;">1.07e-05</td>
+      <td style="text-align:left;">0.0766</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCTTTTCTCCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">65212234</td>
+      <td style="text-align:left;">65212245</td>
+      <td style="text-align:left;">1.36e-05</td>
+      <td style="text-align:left;">0.0858</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTTCTCCTG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">57921561</td>
+      <td style="text-align:left;">57921572</td>
+      <td style="text-align:left;">1.47e-05</td>
+      <td style="text-align:left;">0.0858</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gcctccctggca</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">100771363</td>
+      <td style="text-align:left;">100771374</td>
+      <td style="text-align:left;">1.51e-05</td>
+      <td style="text-align:left;">0.0858</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCTTTTCTTCTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">65194780</td>
+      <td style="text-align:left;">65194791</td>
+      <td style="text-align:left;">1.54e-05</td>
+      <td style="text-align:left;">0.0858</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCCTTGCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">62493339</td>
+      <td style="text-align:left;">62493350</td>
+      <td style="text-align:left;">1.56e-05</td>
+      <td style="text-align:left;">0.0858</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GACTTTTTTCTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">22768340</td>
+      <td style="text-align:left;">22768351</td>
+      <td style="text-align:left;">1.62e-05</td>
+      <td style="text-align:left;">0.0858</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCTTTGCTG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">55879942</td>
+      <td style="text-align:left;">55879953</td>
+      <td style="text-align:left;">1.73e-05</td>
+      <td style="text-align:left;">0.0879</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCTTTTTTCCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr14</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">75747162</td>
+      <td style="text-align:left;">75747173</td>
+      <td style="text-align:left;">2.31e-05</td>
+      <td style="text-align:left;">0.112</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCTTCCCTGCTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr1</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">86047862</td>
+      <td style="text-align:left;">86047873</td>
+      <td style="text-align:left;">2.52e-05</td>
+      <td style="text-align:left;">0.118</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCTTGGCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">39901298</td>
+      <td style="text-align:left;">39901309</td>
+      <td style="text-align:left;">2.89e-05</td>
+      <td style="text-align:left;">0.123</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCCTCCTG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55874159</td>
+      <td style="text-align:left;">55874170</td>
+      <td style="text-align:left;">2.89e-05</td>
+      <td style="text-align:left;">0.123</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCCTCCTG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">22771022</td>
+      <td style="text-align:left;">22771033</td>
+      <td style="text-align:left;">2.92e-05</td>
+      <td style="text-align:left;">0.123</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GATTCTTTGCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">57918367</td>
+      <td style="text-align:left;">57918378</td>
+      <td style="text-align:left;">3.47e-05</td>
+      <td style="text-align:left;">0.141</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GATTTTTTTCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">39901224</td>
+      <td style="text-align:left;">39901235</td>
+      <td style="text-align:left;">4.2e-05</td>
+      <td style="text-align:left;">0.165</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gccttactcctt</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr9</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">91932448</td>
+      <td style="text-align:left;">91932459</td>
+      <td style="text-align:left;">5.63e-05</td>
+      <td style="text-align:left;">0.214</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTACTTGCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr7</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">22769390</td>
+      <td style="text-align:left;">22769401</td>
+      <td style="text-align:left;">6.12e-05</td>
+      <td style="text-align:left;">0.22</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GACTCTTTTGTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">52449868</td>
+      <td style="text-align:left;">52449879</td>
+      <td style="text-align:left;">6.23e-05</td>
+      <td style="text-align:left;">0.22</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCTTGTCCA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39902476</td>
+      <td style="text-align:left;">39902487</td>
+      <td style="text-align:left;">6.34e-05</td>
+      <td style="text-align:left;">0.22</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCTTTACA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65194739</td>
+      <td style="text-align:left;">65194750</td>
+      <td style="text-align:left;">7.1e-05</td>
+      <td style="text-align:left;">0.236</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCTGTGCTG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">65194896</td>
+      <td style="text-align:left;">65194907</td>
+      <td style="text-align:left;">7.47e-05</td>
+      <td style="text-align:left;">0.236</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GATTCTTTCCTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">62609258</td>
+      <td style="text-align:left;">62609269</td>
+      <td style="text-align:left;">7.51e-05</td>
+      <td style="text-align:left;">0.236</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTTTGGCTA</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr16</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">56644901</td>
+      <td style="text-align:left;">56644912</td>
+      <td style="text-align:left;">7.57e-05</td>
+      <td style="text-align:left;">0.236</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCTTTCCTGACT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr17</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">62492810</td>
+      <td style="text-align:left;">62492821</td>
+      <td style="text-align:left;">7.87e-05</td>
+      <td style="text-align:left;">0.24</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GATTCTCTTCTG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr11</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">62609266</td>
+      <td style="text-align:left;">62609277</td>
+      <td style="text-align:left;">8.22e-05</td>
+      <td style="text-align:left;">0.242</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCTTCTCGGCCT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr12</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">52445974</td>
+      <td style="text-align:left;">52445985</td>
+      <td style="text-align:left;">8.64e-05</td>
+      <td style="text-align:left;">0.242</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTCCTTTATT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr1_gl000192_random</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">544729</td>
+      <td style="text-align:left;">544740</td>
+      <td style="text-align:left;">8.75e-05</td>
+      <td style="text-align:left;">0.242</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GACTCCTTTGTT</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">-</td>
+      <td style="text-align:left;">39903181</td>
+      <td style="text-align:left;">39903192</td>
+      <td style="text-align:left;">8.75e-05</td>
+      <td style="text-align:left;">0.242</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">GCCTTCCGGCCG</td>
+   </tr>
+    <tr>
+      <td style="text-align:left;">1-GCCTYYYTBCCW</td>
+      <td style="text-align:left;">STREME-1</td>
+      <td style="text-align:left;">chr19</td>
+      <td style="text-align:center;">+</td>
+      <td style="text-align:left;">55880524</td>
+      <td style="text-align:left;">55880535</td>
+      <td style="text-align:left;">9.25e-05</td>
+      <td style="text-align:left;">0.25</td>
+      <td style="text-align:left;font-size:x-large;font-family:monospace;">gactcccggcct</td>
+   </tr>
+</tbody>
+</table>
+
+<hr>
+<center><big><b><a name="debugging_information">DEBUGGING INFORMATION</a></b></big></center>
+<hr>
+<p>
+Command line:
+</p>
+<pre>
+fimo --parse-genomic-coord --verbosity 1 --oc peaksSet2_promoters_nearest_gene_MEME_ChIP/fimo_out_1 --bgfile peaksSet2_promoters_nearest_gene_MEME_ChIP/background --motif 1-GCCTYYYTBCCW peaksSet2_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet2_promoters_nearest_gene_MEME_ChIP/peaksSet2_promoters_nearest_gene.fasta
+</pre>
+<p>
+Settings:
+</p>
+<pre>
+<table>
+  <tr>
+    <td style="padding-right: 2em">output_directory = peaksSet2_promoters_nearest_gene_MEME_ChIP/fimo_out_1</td>
+    <td style="padding-left: 5em; padding-right: 2em">MEME file name = peaksSet2_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml</td>
+    <td style="padding-left: 5em; padding-right: 2em">sequence file name = peaksSet2_promoters_nearest_gene_MEME_ChIP/peaksSet2_promoters_nearest_gene.fasta</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">background file name = peaksSet2_promoters_nearest_gene_MEME_ChIP/background</td>
+    <td style="padding-left: 5em; padding-right: 2em">alphabet = DNA</td>
+    <td style="padding-left: 5em; padding-right: 2em">max stored scores = 100000</td>
+  </tr>  <tr>
+    <td style="padding-right: 2em">allow clobber = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">compute q-values = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">parse genomic coord. = true</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">text only = false</td>
+    <td style="padding-left: 5em; padding-right: 2em">scan both strands = true</td>
+    <td style="padding-left: 5em; padding-right: 2em">max strand = false</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">threshold type = p-value</td>
+    <td style="padding-left: 5em; padding-right: 2em">output theshold = 0.0001</td>
+    <td style="padding-left: 5em; padding-right: 2em">pseudocount = 0.1</td>
+  </tr>
+  <tr>
+    <td style="padding-right: 2em">alpha = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em">verbosity = 1</td>
+    <td style="padding-left: 5em; padding-right: 2em"></td>
+  </tr>
+
+</table>
+</pre>
+<p>
+This information can be useful in the event you wish to report a
+problem with the FIMO software.
+</p>
+<hr>
+<span style="background-color: #DDDDFF"><a href="#top_buttons"><b>Go to top</b></a></span>
+</body>
+</html>

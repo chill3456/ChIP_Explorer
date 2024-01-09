@@ -1,0 +1,12 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+3-GACCACC	STREME-3	chr16	3073282	3073288	-	12.0887	7.55e-05	1	GACCACC
+3-GACCACC	STREME-3	chr19	13056627	13056633	-	12.0887	7.55e-05	1	GACCACC
+3-GACCACC	STREME-3	chr6	44224126	44224132	-	12.0887	7.55e-05	1	GACCACC
+3-GACCACC	STREME-3	chr11	65190956	65190962	-	12.0887	7.55e-05	1	GACCACC
+3-GACCACC	STREME-3	chr1	173831340	173831346	-	12.0887	7.55e-05	1	GACCACC
+3-GACCACC	STREME-3	chr12	52448166	52448172	+	12.0887	7.55e-05	1	GACCACC
+3-GACCACC	STREME-3	chr11	62608588	62608594	+	12.0887	7.55e-05	1	gaccacc
+
+# FIMO (Find Individual Motif Occurrences): Version 5.4.1 compiled on Nov  7 2022 at 13:03:04
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc peaksSet2_promoters_nearest_gene_MEME_ChIP/fimo_out_2 --bgfile peaksSet2_promoters_nearest_gene_MEME_ChIP/background --motif 3-GACCACC peaksSet2_promoters_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet2_promoters_nearest_gene_MEME_ChIP/peaksSet2_promoters_nearest_gene.fasta

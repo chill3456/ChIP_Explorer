@@ -1,0 +1,11 @@
+MOTIF_INDEX	MOTIF_SOURCE	MOTIF_ID	ALT_ID	CONSENSUS	WIDTH	SITES	E-VALUE	E-VALUE_SOURCE	MOST_SIMILAR_MOTIF_SOURCE	MOST_SIMILAR_MOTIF	URL
+1	MEME	CCCNBCCCCVCCCAC	MEME-1	CCCNBCCCCVCCCAC	15	13	7.0e-008	MEME	/wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme	ZNF740_full	http://floresta.eead.csic.es/footprintdb/index.php?db=HumanTF:1.0&motif=ZNF740_full
+2	STREME	1-RCYCCTCCCCCD	STREME-1	RCYCCTCCCCCD	12	9	2.3e-004	STREME	/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme	MA1965.1 (SP5)	http://jaspar2022.genereg.net/matrix/MA1965.1
+3	STREME	2-CCTGSSCAGG	STREME-2	CCTGSSCAGG	10	6	7.5e-003	STREME	 	 	 
+4	STREME	3-ACCCACCCACTCAC	STREME-3	ACCCACCCACTCAC	14	5	2.0e-002	STREME	/wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme	Egr1_mouse_DBD_mutant_DBD	http://floresta.eead.csic.es/footprintdb/index.php?db=HumanTF:1.0&motif=Egr1_mouse_DBD_mutant_DBD
+5	STREME	4-GCCCCTCCCCCCMCA	STREME-4	GCCCCTCCCCCCMCA	15	5	2.0e-002	STREME	/wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme	MA1965.1 (SP5)	http://jaspar2022.genereg.net/matrix/MA1965.1
+6	STREME	5-SAASAAATC	STREME-5	SAASAAATC	9	5	2.0e-002	STREME	 	 	 
+
+# MEME-ChIP (Motif Analysis of Large Nucleotide Datasets): Version 5.4.1 released on Sat Aug 21 19:23:23 2021 -0700
+# The format of this file is described at https://meme-suite.org/meme//doc/meme-chip-output-format.html
+# meme-chip -oc . -time 240 -ccut 100 -dna -order 2 -minw 6 -maxw 15 -db /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme -db /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme -db /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 -streme-pvt 0.05 -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 peaksSet3_enhancers_nearest_gene.fasta -oc peaksSet3_enhancers_nearest_gene_MEME_ChIP

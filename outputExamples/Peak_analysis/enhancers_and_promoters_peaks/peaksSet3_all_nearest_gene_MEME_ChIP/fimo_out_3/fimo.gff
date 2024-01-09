@@ -1,0 +1,6 @@
+##gff-version 3
+chr11	fimo	nucleotide_motif	77705785	77705794	59.6	+	.	Name=4-ACWTGCCGAG_chr11+;Alias=STREME-4;ID=4-ACWTGCCGAG-STREME-4-1-chr11;pvalue=1.1e-06;qvalue=0.0428;sequence=ACTTGCCGAG;
+chr21	fimo	nucleotide_motif	9827176	9827185	49.2	+	.	Name=4-ACWTGCCGAG_chr21+;Alias=STREME-4;ID=4-ACWTGCCGAG-STREME-4-1-chr21;pvalue=1.2e-05;qvalue=0.0934;sequence=acatgccgac;
+chr6	fimo	nucleotide_motif	58778560	58778569	50.8	-	.	Name=4-ACWTGCCGAG_chr6-;Alias=STREME-4;ID=4-ACWTGCCGAG-STREME-4-1-chr6;pvalue=8.25e-06;qvalue=0.0802;sequence=ACTTGCAGAT;
+chr6	fimo	nucleotide_motif	58778900	58778909	50.8	-	.	Name=4-ACWTGCCGAG_chr6-;Alias=STREME-4;ID=4-ACWTGCCGAG-STREME-4-2-chr6;pvalue=8.25e-06;qvalue=0.0802;sequence=ACTTGCAGAT;
+chr6	fimo	nucleotide_motif	58779237	58779246	50.8	-	.	Name=4-ACWTGCCGAG_chr6-;Alias=STREME-4;ID=4-ACWTGCCGAG-STREME-4-3-chr6;pvalue=8.25e-06;qvalue=0.0802;sequence=ACTTGCAGAT;

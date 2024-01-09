@@ -1,0 +1,4 @@
+
+# FIMO (Find Individual Motif Occurrences): Version 5.4.1 compiled on Nov  7 2022 at 13:03:04
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc peaksSet2_enhancers_nearest_gene_MEME_ChIP/fimo_out_4 --bgfile peaksSet2_enhancers_nearest_gene_MEME_ChIP/background --motif 1-AAGTCA peaksSet2_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet2_enhancers_nearest_gene_MEME_ChIP/peaksSet2_enhancers_nearest_gene.fasta

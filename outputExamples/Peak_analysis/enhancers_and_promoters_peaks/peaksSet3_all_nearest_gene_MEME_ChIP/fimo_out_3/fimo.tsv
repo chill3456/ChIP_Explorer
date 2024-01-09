@@ -1,0 +1,10 @@
+motif_id	motif_alt_id	sequence_name	start	stop	strand	score	p-value	q-value	matched_sequence
+4-ACWTGCCGAG	STREME-4	chr11	77705785	77705794	+	15.547	1.1e-06	0.0428	ACTTGCCGAG
+4-ACWTGCCGAG	STREME-4	chr6	58778560	58778569	-	13.4872	8.25e-06	0.0802	ACTTGCAGAT
+4-ACWTGCCGAG	STREME-4	chr6	58778900	58778909	-	13.4872	8.25e-06	0.0802	ACTTGCAGAT
+4-ACWTGCCGAG	STREME-4	chr6	58779237	58779246	-	13.4872	8.25e-06	0.0802	ACTTGCAGAT
+4-ACWTGCCGAG	STREME-4	chr21	9827176	9827185	+	13.265	1.2e-05	0.0934	acatgccgac
+
+# FIMO (Find Individual Motif Occurrences): Version 5.4.1 compiled on Nov  7 2022 at 13:03:04
+# The format of this file is described at https://meme-suite.org/meme/doc/fimo-output-format.html.
+# fimo --parse-genomic-coord --verbosity 1 --oc peaksSet3_all_nearest_gene_MEME_ChIP/fimo_out_3 --bgfile peaksSet3_all_nearest_gene_MEME_ChIP/background --motif 4-ACWTGCCGAG peaksSet3_all_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet3_all_nearest_gene_MEME_ChIP/peaksSet3_all_nearest_gene.fasta

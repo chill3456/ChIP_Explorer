@@ -1,0 +1,1 @@
+cmd = peaksSet3_promoters_nearest_gene.bed hg19 peaksSet3_promoters_nearest_gene_HOMER -preparse -size 200 -mask -preparsedDir /wistar/gardini/homer/data/genomes/hg19

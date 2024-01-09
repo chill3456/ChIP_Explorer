@@ -1,0 +1,8 @@
+##gff-version 3
+chr10	fimo	nucleotide_motif	69644374	69644382	55.2	-	.	Name=3-AACCCCATC_chr10-;Alias=STREME-3;ID=3-AACCCCATC-STREME-3-1-chr10;pvalue=3.01e-06;qvalue=0.0742;sequence=AACCCCATC;
+chr11	fimo	nucleotide_motif	118306998	118307006	47.9	-	.	Name=3-AACCCCATC_chr11-;Alias=STREME-3;ID=3-AACCCCATC-STREME-3-1-chr11;pvalue=1.63e-05;qvalue=0.156;sequence=AACTCCATC;
+chr16	fimo	nucleotide_motif	1359131	1359139	43.3	-	.	Name=3-AACCCCATC_chr16-;Alias=STREME-3;ID=3-AACCCCATC-STREME-3-1-chr16;pvalue=4.69e-05;qvalue=0.165;sequence=AACCCCTTG;
+chr19	fimo	nucleotide_motif	52693379	52693387	 45	+	.	Name=3-AACCCCATC_chr19+;Alias=STREME-3;ID=3-AACCCCATC-STREME-3-1-chr19;pvalue=3.17e-05;qvalue=0.156;sequence=TACCCCATC;
+chr3	fimo	nucleotide_motif	42642197	42642205	 45	-	.	Name=3-AACCCCATC_chr3-;Alias=STREME-3;ID=3-AACCCCATC-STREME-3-1-chr3;pvalue=3.17e-05;qvalue=0.156;sequence=AACCCCAAC;
+chr3	fimo	nucleotide_motif	42642090	42642098	44.2	+	.	Name=3-AACCCCATC_chr3+;Alias=STREME-3;ID=3-AACCCCATC-STREME-3-2-chr3;pvalue=3.8e-05;qvalue=0.156;sequence=ACCCCCATC;
+chrX	fimo	nucleotide_motif	77359316	77359324	 45	-	.	Name=3-AACCCCATC_chrX-;Alias=STREME-3;ID=3-AACCCCATC-STREME-3-1-chrX;pvalue=3.17e-05;qvalue=0.156;sequence=AACCCCAAC;

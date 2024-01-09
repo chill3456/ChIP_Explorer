@@ -1,0 +1,3 @@
+# Warning: No hold-out set was created because the primary hold-out set 
+#          would have had fewer than 5 sequences.
+# Warning: Ignoring <thresh> (0.05) and setting <nmotifs> to 5.

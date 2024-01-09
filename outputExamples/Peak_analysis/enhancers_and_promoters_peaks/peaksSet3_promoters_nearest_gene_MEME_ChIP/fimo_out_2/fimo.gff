@@ -1,0 +1,7 @@
+##gff-version 3
+chr10	fimo	nucleotide_motif	69644393	69644402	53.4	+	.	Name=2-GCAGCCGGAS_chr10+;Alias=STREME-2;ID=2-GCAGCCGGAS-STREME-2-1-chr10;pvalue=4.52e-06;qvalue=0.108;sequence=GCAGCCGGAG;
+chr17	fimo	nucleotide_motif	80170728	80170737	50.4	-	.	Name=2-GCAGCCGGAS_chr17-;Alias=STREME-2;ID=2-GCAGCCGGAS-STREME-2-1-chr17;pvalue=9.03e-06;qvalue=0.108;sequence=GCAGCCGGAC;
+chr19	fimo	nucleotide_motif	41770015	41770024	44.4	+	.	Name=2-GCAGCCGGAS_chr19+;Alias=STREME-2;ID=2-GCAGCCGGAS-STREME-2-1-chr19;pvalue=3.66e-05;qvalue=0.172;sequence=GCAGCCGGCG;
+chr5	fimo	nucleotide_motif	60627788	60627797	43.6	+	.	Name=2-GCAGCCGGAS_chr5+;Alias=STREME-2;ID=2-GCAGCCGGAS-STREME-2-1-chr5;pvalue=4.31e-05;qvalue=0.172;sequence=GCAGCCTGAC;
+chrUn_gl000220	fimo	nucleotide_motif	119031	119040	47.5	+	.	Name=2-GCAGCCGGAS_chrUn_gl000220+;Alias=STREME-2;ID=2-GCAGCCGGAS-STREME-2-1-chrUn_gl000220;pvalue=1.76e-05;qvalue=0.141;sequence=GCAACCGGAG;
+chrX	fimo	nucleotide_motif	77359581	77359590	43.6	+	.	Name=2-GCAGCCGGAS_chrX+;Alias=STREME-2;ID=2-GCAGCCGGAS-STREME-2-1-chrX;pvalue=4.31e-05;qvalue=0.172;sequence=GCAGACGGAC;

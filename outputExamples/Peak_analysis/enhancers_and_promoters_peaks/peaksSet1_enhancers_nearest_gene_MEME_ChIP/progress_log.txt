@@ -1,0 +1,62 @@
+Invoking:
+  getsize peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta 1> $metrics
+Finished invoke:
+  name: count_seqs  status: 0  time: 0.052785
+Invoking:
+  fasta-most -min 50 < peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta 1> $metrics
+Finished invoke:
+  name: most_seqs  status: 0  time: 0.075757
+Invoking:
+  fasta-center -dna -len 100 < peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta 1> peaksSet1_enhancers_nearest_gene_MEME_ChIP/seqs-centered
+Finished invoke:
+  name: center_seqs  status: 0  time: 0.094071
+Invoking:
+  fasta-get-markov -nostatus -nosummary -dna -m 2 peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta peaksSet1_enhancers_nearest_gene_MEME_ChIP/background
+Finished invoke:
+  name: bg  status: 0  time: 0.024892
+Invoking:
+  meme peaksSet1_enhancers_nearest_gene_MEME_ChIP/seqs-centered -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out -mod zoops -nmotifs 3 -minw 6 -maxw 15 -bfile peaksSet1_enhancers_nearest_gene_MEME_ChIP/background -dna -searchsize 100000 -time 2919 -revcomp -nostatus
+Finished invoke:
+  name: meme  status: 0  time: 1039.832555
+Invoking:
+  streme --verbosity 1 --oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out -dna --p peaksSet1_enhancers_nearest_gene_MEME_ChIP/seqs-centered --minw 6 --maxw 15 --time 5748 --order 2 --thresh 0.05 --totallength 4000000
+Finished invoke:
+  name: streme  status: 0  time: 48.992331
+Invoking:
+  centrimo -seqlen 180 -verbosity 1 -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/centrimo_out -bfile peaksSet1_enhancers_nearest_gene_MEME_ChIP/background -score 5.0 -ethresh 10.0 peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme
+Finished invoke:
+  name: centrimo  status: 0  time: 3.783406
+Invoking:
+  tomtom -verbosity 1 -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme
+Finished invoke:
+  name: meme_tomtom  status: 0  time: 9.724979
+Invoking:
+  tomtom -verbosity 1 -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_tomtom_out -min-overlap 5 -dist pearson -evalue -thresh 1 -no-ssc peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme
+Finished invoke:
+  name: streme_tomtom  status: 0  time: 42.02527
+Invoking:
+  tomtom -verbosity 1 -text -thresh 0.1 peaksSet1_enhancers_nearest_gene_MEME_ChIP/combined.meme peaksSet1_enhancers_nearest_gene_MEME_ChIP/combined.meme 1> peaksSet1_enhancers_nearest_gene_MEME_ChIP/motif_alignment.txt
+Finished invoke:
+  name: align  status: 0  time: 0.057403
+Invoking:
+  spamo -verbosity 1 -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/spamo_out_1 -bgfile peaksSet1_enhancers_nearest_gene_MEME_ChIP/background -keepprimary -primary TTCCATTCCATTCCA peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml
+Finished invoke:
+  name: spamo1  status: 0  time: 0.270722
+Invoking:
+  spamo -verbosity 1 -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/spamo_out_2 -bgfile peaksSet1_enhancers_nearest_gene_MEME_ChIP/background -keepprimary -primary 1-VTGASTCAB peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml
+Finished invoke:
+  name: spamo2  status: 0  time: 0.134772
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/fimo_out_1 --bgfile peaksSet1_enhancers_nearest_gene_MEME_ChIP/background --motif TTCCATTCCATTCCA peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme_out/meme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta
+Finished invoke:
+  name: fimo1  status: 0  time: 0.221431
+Invoking:
+  fimo --parse-genomic-coord --verbosity 1 --oc peaksSet1_enhancers_nearest_gene_MEME_ChIP/fimo_out_2 --bgfile peaksSet1_enhancers_nearest_gene_MEME_ChIP/background --motif 1-VTGASTCAB peaksSet1_enhancers_nearest_gene_MEME_ChIP/streme_out/streme.xml peaksSet1_enhancers_nearest_gene_MEME_ChIP/peaksSet1_enhancers_nearest_gene.fasta
+Finished invoke:
+  name: fimo2  status: 0  time: 0.18618
+Writing output
+Invoking:
+  meme-chip_html_to_tsv peaksSet1_enhancers_nearest_gene_MEME_ChIP/meme-chip.html peaksSet1_enhancers_nearest_gene_MEME_ChIP/summary.tsv "meme-chip -oc . -time 240 -ccut 100 -dna -order 2 -minw 6 -maxw 15 -db /wistar/gardini/tools/meme/db/motif_databases/MOUSE/uniprobe_mouse.meme -db /wistar/gardini/tools/meme/db/motif_databases/JASPAR/JASPAR2022_CORE_vertebrates_non-redundant_v2.meme -db /wistar/gardini/tools/meme/db/motif_databases/EUKARYOTE/jolma2013.meme -meme-mod zoops -meme-nmotifs 3 -meme-searchsize 100000 -streme-pvt 0.05 -streme-totallength 4000000 -centrimo-score 5.0 -centrimo-ethresh 10.0 peaksSet1_enhancers_nearest_gene.fasta -oc peaksSet1_enhancers_nearest_gene_MEME_ChIP" 5.4.1 "Sat Aug 21 19\:23\:23 2021 -0700"
+Finished invoke:
+  name: summary  status: 0  time: 0.131351
+Done
